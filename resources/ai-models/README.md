@@ -2,7 +2,7 @@
 
 Notes on specific AI models (chat assistants, language models, image models, and open-weight models) and when each is a good fit. This is where colleagues share which model they reached for and how it went. Ordered alphabetically by title.
 
----
+
 ## [OpenAI](https://learn.chatgpt.com/docs/models?surface=app) (ChatGPT)
 
 ### GPT-models (Unknown version)
@@ -28,25 +28,25 @@ Multiple 2026 Upskilling Fellows reached for Claude as a general-purpose researc
 
 **Modality:** Text, Code · **Purpose:** Coding, Learning Aid, Productivity, Research, Writing
 
+**Reviews:**
 - **Eric Ford** — Recommend. Widely recognized as one of most powerful models at the time.  Higher cost and usage limits mean that we should probably reserve it for particularly challenging tasks or tasks where we're not satisfied with performance of other models.
 
-**Reviews:**
 
 ### Opus
 
 **Modality:** Text, Code · **Purpose:** Coding, Learning Aid, Productivity, Research, Writing
 
+**Reviews:**
 - **Eric Ford** — Recommend. Good for analyzing sizable codes, making plans to refactor, add features, etc.
 
-**Reviews:**
 
 ### Sonnet
 
 **Modality:** Text, Code · **Purpose:** Coding, Critical Feedback, Learning Aid, Productivity, Research, Writing
 
-- **Eric Ford** — Recommend. Effective for implementing code changes, especially if provided a plan (e.g., from Opus or Fable).
-
 **Reviews:**
+- **Eric Ford** — Highly Recommend. Effective for implementing code changes, especially if provided a plan (e.g., from Opus or Fable).
+
 
 ### Haiku
 
@@ -65,10 +65,8 @@ GMultiple 2026 Upskilling Fellows reached for it as a general-purpose research, 
 Penn State's own overview of the AI services and models available to faculty and staff, including which are cleared for different kinds of university data. Start here before choosing a model for real work.
 
 **Reviews:**
-
 - **Penn State** — Highly Recommend. Choosing a model requires attention to data policy as well as capability.
 
----
 
 <!--
 ## [Name of provider](https://example.com)

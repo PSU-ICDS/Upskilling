@@ -2,7 +2,7 @@
 
 **Category:** Tutorials and guides
 
-**Level:** Beginner · **Modality:** Text, Code · **Purpose:** Research, Productivity
+**Level:** Beginner · **Modality:** Text· **Purpose:** Research, Literature Search, Productivity
 
 ## What it is
 

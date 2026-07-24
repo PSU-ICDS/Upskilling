@@ -2,7 +2,6 @@
 
 Assistants, agents, coding environments (IDEs), notebooks, and platforms that wrap AI models into something you actually use to get work done. If a model is the engine, a harness is the car built around it. Ordered alphabetically by title.
 
----
 ## Coding Harnesses
 
 ### [Codex](https://developers.openai.com/codex)
@@ -57,7 +56,7 @@ Converting PDFs to Markdown makes papers and reports easier to search, edit, and
 _More info: [PDF-to-Markdown converters (detail page)](../../details/pdf-to-markdown-converters.md)_
 
 
---- 
+
 ## Token saving strategies
 
 ### [RTK](https://github.com/rtk-ai/rtk)
@@ -69,7 +68,6 @@ Can significantly reduce token usage.
 - **Justin Silverman** - Highly Recommend.  Helps keep usage within limits of low cost subscription tiers
 - 
 
----
 
 
 <!--
