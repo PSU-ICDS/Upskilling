@@ -1,0 +1,111 @@
+name: Suggest a resource
+description: Recommend an AI learning resource. No file editing needed; a maintainer will add it for you.
+title: "[Resource] "
+labels: ["resource suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping colleagues find good AI learning materials. Fill in what you can.
+        A maintainer from ICDS will turn this into a proper entry.
+        Prefer not to use GitHub at all? See CONTRIBUTING.md for other options.
+  - type: input
+    id: title
+    attributes:
+      label: Short title
+      description: A short, descriptive name for the resource.
+      placeholder: e.g., AI Essentials Faculty Resources
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: The web address for the resource.
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Which group does it best fit? Not sure? Pick the closest; a maintainer can move it.
+      options:
+        - Courses
+        - Tutorials and guides
+        - AI models
+        - AI tools and harnesses
+        - Books and articles
+        - Videos and talks
+        - Community repositories
+        - Not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: level
+    attributes:
+      label: Level
+      description: How much background does it assume?
+      options:
+        - Beginner
+        - Intermediate
+        - Advanced
+        - Expert
+    validations:
+      required: true
+  - type: checkboxes
+    id: modality
+    attributes:
+      label: Modality
+      description: What kind of content does it deal with? Choose any that apply.
+      options:
+        - label: Text
+        - label: Code
+        - label: Images
+        - label: Audio
+        - label: Video
+        - label: Other
+  - type: checkboxes
+    id: purpose
+    attributes:
+      label: Purpose
+      description: What would you use it for? Choose any that apply.
+      options:
+        - label: Coding
+        - label: Critical Feedback
+        - label: Learning Aid
+        - label: Literature Search
+        - label: Productivity
+        - label: Research
+        - label: Writing
+        - label: Other
+  - type: dropdown
+    id: recommendation
+    attributes:
+      label: Your recommendation
+      options:
+        - Highly Recommend
+        - Recommend
+        - Neutral
+        - Do Not Recommend
+    validations:
+      required: true
+  - type: input
+    id: reviewer
+    attributes:
+      label: Your name
+      description: How should we credit you in the review?
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: Why (optional)
+      description: A sentence or two on what was useful (or not).
+  - type: checkboxes
+    id: agreement
+    attributes:
+      label: Confirmation
+      options:
+        - label: I understand this suggestion may be added to a public repository licensed CC BY-SA 4.0, and I have the right to share anything I include.
+          required: true

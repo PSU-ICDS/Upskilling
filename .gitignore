@@ -1,0 +1,13 @@
+# OS and editor cruft
+.DS_Store
+Thumbs.db
+*~
+*.swp
+.vscode/
+.idea/
+
+# Temporary Office lock files
+~$*
+
+# Franklin.jl build output (if an HTML site is added later)
+__site/
