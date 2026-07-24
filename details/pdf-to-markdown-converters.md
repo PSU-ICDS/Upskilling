@@ -15,13 +15,13 @@ Anyone who wants to feed a PDF's content to AI while reducing token usage and im
 ## Tools
 
 - **[markitdown](https://github.com/microsoft/markitdown)** — Microsoft's open-source command-line tool and Python library for converting PDFs (and other file types, such as Word, PowerPoint, and HTML) to Markdown.
-  - **Eric Ford** — Recommend.
+  - 07/2026 — **Eric Ford** — Recommend.
 - **[arxiv2md.org](http://arxiv2md.org/)** — A web service focused on converting arXiv papers to Markdown, preserving structure like sections, equations, and references.
-  - **Eric Ford** — Highly Recommend.
+  - 07/2026 — **Eric Ford** — Highly Recommend.
 
 <!--
 - **[Name of the tool](https://example.com)** — One line on what it does.
-  - **Your Name** — Recommend. Why it worked (or didn't) for you.
+  - MM/YYYY or YYYY — **Your Name** — Recommend. Why it worked (or didn't) for you.
 -->
 
 ## Tips and gotchas

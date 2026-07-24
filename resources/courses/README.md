@@ -12,7 +12,7 @@ Penn State's foundational AI-literacy training for faculty, with a Faculty Quick
 
 **Reviews:**
 
-- **Penn State** — Recommend. The natural first stop for any Penn State faculty member, and it comes from within the university, so the guidance matches our policies and tools.
+- 07/2026 — **Penn State** — Recommend. The natural first stop for any Penn State faculty member, and it comes from within the university, so the guidance matches our policies and tools.
 
 _More info: [AI Essentials at Penn State](https://ai.psu.edu/ai-literacy/ai-essentials)_
 
@@ -26,7 +26,7 @@ Vendor courses and guides on using large language models well, including prompti
 
 **Reviews:**
 
-- **Eric Ford** — Recommend. A clear, applied introduction to getting useful work out of a modern chat assistant. Keep in mind it focuses on one vendor's tools, so pair it with a broader overview.
+- 07/2026 — **Eric Ford** — Recommend. A clear, applied introduction to getting useful work out of a modern chat assistant. Keep in mind it focuses on one vendor's tools, so pair it with a broader overview.
 
 _More info: [Getting started with Claude (detail page)](../../details/example-detail-page.md)_
 
@@ -40,7 +40,7 @@ IBM's quantum-computing learning materials: lectures, notes, and code examples b
 
 **Reviews:**
 
-- **Wenrui Hao** — Recommend. Used together with ChatGPT to get oriented on quantum computing fundamentals for biological and life-science modeling; helpful for making a fast-moving, technically difficult field more approachable.
+- 07/2026 — **Wenrui Hao** — Recommend. Used together with ChatGPT to get oriented on quantum computing fundamentals for biological and life-science modeling; helpful for making a fast-moving, technically difficult field more approachable.
 
 _Source: 2026 Summer Faculty Upskilling Reflection Lunch meeting notes._
 
@@ -55,8 +55,8 @@ One-line description of what the course covers.
 
 **Reviews:**
 
-- **Reviewer One** — Highly Recommend. What worked well for them.
-- **Reviewer Two** — Neutral. A different take, and why. Multiple opinions on the same
+- MM/YYYY or YYYY — **Reviewer One** — Highly Recommend. What worked well for them.
+- MM/YYYY or YYYY — **Reviewer Two** — Neutral. A different take, and why. Multiple opinions on the same
   resource are welcome; add yourself as another bullet rather than making a duplicate entry.
 -->
 

@@ -57,7 +57,7 @@ Every resource entry follows this shape. The source of truth is `templates/resou
 
 **Reviews:**
 
-- **Reviewer Name** — Highly Recommend. Optional sentence or two.
+- MM/YYYY or YYYY — **Reviewer Name** — Highly Recommend. Optional sentence or two.
 
 _More info: [optional detail page](../../details/some-page.md)_
 ```
@@ -68,6 +68,7 @@ Controlled vocabularies (do not introduce new values without maintainer sign-off
 - **Modality:** Text, Code, Images, Audio, Video
 - **Purpose:** Coding, Research, Productivity
 - **Recommendation:** Highly Recommend, Recommend, Neutral, Do Not Recommend
+- **Date:** YYYY, or MM/YYYY for more precision
 
 ## Common tasks and how to do them
 

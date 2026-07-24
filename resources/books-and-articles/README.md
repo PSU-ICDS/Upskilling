@@ -13,7 +13,7 @@ One line on what it covers.
 
 **Reviews:**
 
-- **Your Name** — Recommend. Why it was worth the time, and roughly how long it takes.
+- MM/YYYY or YYYY — **Your Name** — Recommend. Why it was worth the time, and roughly how long it takes.
 -->
 
 _No entries yet. Be the first to add one, see [CONTRIBUTING.md](../../CONTRIBUTING.md)._

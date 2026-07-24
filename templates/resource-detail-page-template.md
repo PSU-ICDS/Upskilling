@@ -28,7 +28,7 @@ Setup notes, costs, time required, data-sensitivity considerations for universit
 
 ## Reviews
 
-- **Your Name** — Highly Recommend. A fuller version of your take than fits on the entry line.
+- MM/YYYY or YYYY — **Your Name** — Highly Recommend. A fuller version of your take than fits on the entry line.
 
 ## Related
 

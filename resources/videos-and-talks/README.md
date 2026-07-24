@@ -14,7 +14,7 @@ One line on the content. Note length and whether captions/transcript exist.
 
 **Reviews:**
 
-- **Your Name** — Highly Recommend. What made it worth watching.
+- MM/YYYY or YYYY — **Your Name** — Highly Recommend. What made it worth watching.
 -->
 
 _No entries yet. Be the first to add one, see [CONTRIBUTING.md](../../CONTRIBUTING.md)._

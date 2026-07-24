@@ -11,7 +11,7 @@ Copy the block below, paste it under the right category page in [`resources/`](.
 
 **Reviews:**
 
-- **Your Name** — Highly Recommend. One or two sentences on why this was useful.
+- MM/YYYY or YYYY — **Your Name** — Highly Recommend. One or two sentences on why this was useful.
 
 _More info: [optional detail page](../../details/your-detail-page.md)_
 ```
@@ -26,8 +26,9 @@ _More info: [optional detail page](../../details/your-detail-page.md)_
 
 **Purpose** — what you would use it for. Choose one or more: `Coding`, `Research`, `Productivity`.
 
-**Reviews** — one bullet per reviewer. Start with your name, then a recommendation, then an optional sentence or two:
+**Reviews** — one bullet per reviewer. Start with the date, then your name, then a recommendation, then an optional sentence or two:
 
+- Date — when you made the recommendation. Use `YYYY`, or `MM/YYYY` if you want more precision.
 - Recommendation options: `Highly Recommend`, `Recommend`, `Neutral`, `Do Not Recommend`.
 - If the resource is already listed and you have used it, **add another bullet under the existing entry** instead of creating a duplicate. Multiple opinions are welcome.
 
@@ -42,9 +43,9 @@ _More info: [optional detail page](../../details/your-detail-page.md)_
 
 **Reviews:**
 
-- **First Last** — Recommend. Clear, applied intro to prompting and building simple
+- 07/2026 — **First Last** — Recommend. Clear, applied intro to prompting and building simple
   workflows. Focused on one vendor's tools, so pair it with a broader overview.
-- **First Initial. Last** — Neutral. Good production values, but I wanted more on evaluating
+- 2026 — **First Initial. Last** — Neutral. Good production values, but I wanted more on evaluating
   output quality for research use.
 ```
 

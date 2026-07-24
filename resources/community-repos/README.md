@@ -13,7 +13,7 @@ One line on what the repository contains and who maintains it.
 
 **Reviews:**
 
-- **Your Name** — Highly Recommend. What you got out of it. Note the repository's own license.
+- MM/YYYY or YYYY — **Your Name** — Highly Recommend. What you got out of it. Note the repository's own license.
 
 _Incorporated as: link only  (or:  git submodule at resources/community-repos/name)_
 -->

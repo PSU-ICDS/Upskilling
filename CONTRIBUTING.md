@@ -8,7 +8,7 @@ You do not need to write much. A complete entry has:
 
 1. A **short title** with a link to the resource.
 2. A few **tags**: a level, one or more modalities, and one or more purposes (explained below).
-3. **Your name** and a **recommendation** (`Highly Recommend`, `Recommend`, `Neutral`, or `Do Not Recommend`).
+3. **Your name**, the **date** of your recommendation (`YYYY` or `MM/YYYY`), and a **recommendation** (`Highly Recommend`, `Recommend`, `Neutral`, or `Do Not Recommend`).
 4. Optionally, **a sentence or two** on why, and a link to a detail page with more information.
 
 If a resource is already listed and you have used it too, please add your own review rather than creating a duplicate entry. Multiple opinions on the same resource are welcome and genuinely useful.
@@ -21,6 +21,7 @@ Pick whatever fits. When in doubt, guess, a maintainer can adjust it.
 - **Modality:** `Text`, `Code`, `Images`, `Audio`, `Video`
 - **Purpose:** `Coding`, `Research`, `Productivity`
 - **Recommendation:** `Highly Recommend`, `Recommend`, `Neutral`, `Do Not Recommend`
+- **Date:** `YYYY`, or `MM/YYYY` for more precision
 
 Tags are always written as plain words, never as color alone, so the repository stays accessible to everyone. See [ACCESSIBILITY.md](ACCESSIBILITY.md).
 
@@ -35,7 +36,7 @@ Copy the block from [templates/resource-entry-template.md](templates/resource-en
 
 **Reviews:**
 
-- **Your Name** — Highly Recommend. One or two sentences on why this was useful.
+- MM/YYYY or YYYY — **Your Name** — Highly Recommend. One or two sentences on why this was useful.
 
 _More info: [optional detail page](../../details/example-detail-page.md)_
 ```

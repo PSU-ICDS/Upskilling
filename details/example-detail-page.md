@@ -24,7 +24,7 @@ The material centers on one vendor's tools, so treat it as a deep example rather
 
 ## Reviews
 
-- **Eric Ford** — Recommend. A clear, hands-on introduction to getting useful results from a modern assistant. The prompting guidance transfers to other tools even though the examples are vendor-specific.
+- 07/2026 — **Eric Ford** — Recommend. A clear, hands-on introduction to getting useful results from a modern assistant. The prompting guidance transfers to other tools even though the examples are vendor-specific.
 
 ## Related
 

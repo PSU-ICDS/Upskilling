@@ -27,13 +27,13 @@ Template:
 
 **Reviews:**
 
-- **Your Name** — Highly Recommend. One or two sentences on why.
+- MM/YYYY or YYYY — **Your Name** — Highly Recommend. One or two sentences on why.
 -->
 
 ## Checklist
 
 - [ ] The link works and points to the right place.
 - [ ] Tags are written as words (Level, Modality, Purpose).
-- [ ] My review names me and gives a recommendation (Highly Recommend / Recommend / Neutral / Do Not Recommend).
+- [ ] My review names me, dates the recommendation (YYYY or MM/YYYY), and gives a recommendation (Highly Recommend / Recommend / Neutral / Do Not Recommend).
 - [ ] Link text is descriptive, and any images have alt text (see ACCESSIBILITY.md).
 - [ ] I have the right to share anything I uploaded, and I understand contributions are licensed CC BY-SA 4.0.

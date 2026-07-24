@@ -12,7 +12,7 @@ Penn State's central, regularly updated library of AI guidance, tool comparisons
 
 **Reviews:**
 
-- **Penn State** — Highly Recommend. This covers AI tools provided by Central IT, and includes a summary of policies and where to get help.
+- 07/2026 — **Penn State** — Highly Recommend. This covers AI tools provided by Central IT, and includes a summary of policies and where to get help.
 
 ---
 
@@ -24,7 +24,7 @@ Not a single tool but a workflow one fellow built for intensive self-study: read
 
 **Reviews:**
 
-- **Justin Silverman** — Highly Recommend. Combined textbook reading, ChatGPT-generated flashcards, Anki spaced repetition, and a local Codex agent that kept flashcards updated and corrected. The broader lesson: AI can support individualized, iterative learning at scale, not just drafting or coding.
+- 07/2026 — **Justin Silverman** — Highly Recommend. Combined textbook reading, ChatGPT-generated flashcards, Anki spaced repetition, and a local Codex agent that kept flashcards updated and corrected. The broader lesson: AI can support individualized, iterative learning at scale, not just drafting or coding.
 
 _Source: 2026 Summer Faculty Upskilling Reflection Lunch meeting notes._
 
@@ -40,7 +40,7 @@ One-line description.
 
 **Reviews:**
 
-- **Your Name** — Recommend. Why it was useful.
+- MM/YYYY or YYYY — **Your Name** — Recommend. Why it was useful.
 -->
 
 --- 

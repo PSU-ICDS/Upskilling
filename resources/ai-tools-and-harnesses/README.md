@@ -12,8 +12,8 @@ OpenAI's coding agent. Fellows used it as a local coding assistant that can read
 
 **Reviews:**
 
-- **Dezhe Jin** — Recommend. Especially useful for turning research code into more reliable, professionally structured software.
-- **Chaoxing Liu** — Recommend. Used alongside Claude-style coding agents for materials-simulation work, including step-by-step verification of derivations and reproduction of published figures and models; extending beyond existing published results still required substantial expert effort.
+- 07/2026 — **Dezhe Jin** — Recommend. Especially useful for turning research code into more reliable, professionally structured software.
+- 07/2026 — **Chaoxing Liu** — Recommend. Used alongside Claude-style coding agents for materials-simulation work, including step-by-step verification of derivations and reproduction of published figures and models; extending beyond existing published results still required substantial expert effort.
 
 _Source: 2026 Summer Faculty Upskilling Reflection Lunch meeting notes._
 
@@ -25,7 +25,7 @@ Anthropic's terminal-based coding harness. Fellows used it as a local coding ass
 
 **Reviews:**
 
-- **Eric Ford** — Highly Recommend. Excellent for understanding repositories, translating codes across languages, writing documentation, tests, setting up continuous integration.  
+- 07/2026 — **Eric Ford** — Highly Recommend. Excellent for understanding repositories, translating codes across languages, writing documentation, tests, setting up continuous integration.  
 
 _Source: 2026 Summer Faculty Upskilling Reflection Lunch meeting notes._
 
@@ -39,7 +39,7 @@ Penn State's own AI assistant environment, provided for the university community
 
 **Reviews:**
 
-- **Penn State** — Recommend. A sensible starting point for faculty who want to try an assistant within the university's supported environment rather than a personal account.  Approved for Level 1 and 2 Data.
+- 07/2026 — **Penn State** — Recommend. A sensible starting point for faculty who want to try an assistant within the university's supported environment rather than a personal account.  Approved for Level 1 and 2 Data.
 
 ---
 
@@ -50,8 +50,8 @@ Penn State's own AI assistant environment, provided for the university community
 Converting PDFs to Markdown makes papers and reports easier to search, edit, and feed into AI tools. Several converters are worth trying rather than just one.
 
 **Reviews:**
-- **Sona Golder** — Highly Recommend. See the detail page for specific tools tried.
-- **Eric Ford** — Highly Recommend. See the detail page for specific tools tried, including [markitdown](https://github.com/microsoft/markitdown) and [arxiv2md](http://arxiv2md.org/).
+- 07/2026 — **Sona Golder** — Highly Recommend. See the detail page for specific tools tried.
+- 07/2026 — **Eric Ford** — Highly Recommend. See the detail page for specific tools tried, including [markitdown](https://github.com/microsoft/markitdown) and [arxiv2md](http://arxiv2md.org/).
 
 _More info: [PDF-to-Markdown converters (detail page)](../../details/pdf-to-markdown-converters.md)_
 
@@ -65,7 +65,7 @@ _More info: [PDF-to-Markdown converters (detail page)](../../details/pdf-to-mark
 Can significantly reduce token usage.
 
 **Reviews:**
-- **Justin Silverman** - Highly Recommend.  Helps keep usage within limits of low cost subscription tiers
+- 07/2026 - **Justin Silverman** - Highly Recommend.  Helps keep usage within limits of low cost subscription tiers
 - 
 
 
@@ -79,7 +79,7 @@ One line on what it does and who it suits.
 
 **Reviews:**
 
-- **Your Name** — Highly Recommend. What you built or did with it, and any setup gotchas.
+- MM/YYYY or YYYY — **Your Name** — Highly Recommend. What you built or did with it, and any setup gotchas.
 -->
 
 ---
