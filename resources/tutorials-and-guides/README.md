@@ -16,6 +16,21 @@ Penn State's central, regularly updated library of AI guidance, tool comparisons
 
 ---
 
+### [AI-assisted spaced-repetition study workflow (Anki + ChatGPT + Codex)](https://apps.ankiweb.net/)
+
+**Level:** Beginner · **Modality:** Text · **Purpose:** Learning Aid
+
+Not a single tool but a workflow one fellow built for intensive self-study: read a textbook chapter, generate Markdown flashcards with ChatGPT, review them in the [Anki](https://apps.ankiweb.net/) spaced-repetition app, and use a local Codex agent to update and correct flashcards against notes over time.
+
+**Reviews:**
+
+- **Justin Silverman** — Highly Recommend. Combined textbook reading, ChatGPT-generated flashcards, Anki spaced repetition, and a local Codex agent that kept flashcards updated and corrected. The broader lesson: AI can support individualized, iterative learning at scale, not just drafting or coding.
+
+_Source: 2026 Summer Faculty Upskilling Reflection Lunch meeting notes._
+
+
+---
+
 <!--
 ### [Title of the tutorial or guide](https://example.com)
 

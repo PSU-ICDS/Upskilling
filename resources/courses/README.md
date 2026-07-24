@@ -32,6 +32,20 @@ _More info: [Getting started with Claude (detail page)](../../details/example-de
 
 ---
 
+### [IBM Qiskit learning ecosystem](https://learning.quantum.ibm.com/)
+
+**Level:** Intermediate · **Modality:** Text, Code · **Purpose:** Coding, Learning Aid, Research
+
+IBM's quantum-computing learning materials: lectures, notes, and code examples built around the Qiskit framework.
+
+**Reviews:**
+
+- **Wenrui Hao** — Recommend. Used together with ChatGPT to get oriented on quantum computing fundamentals for biological and life-science modeling; helpful for making a fast-moving, technically difficult field more approachable.
+
+_Source: 2026 Summer Faculty Upskilling Reflection Lunch meeting notes._
+
+---
+
 <!--
 ### [Example: a course reviewed by more than one person](https://example.com)
 
