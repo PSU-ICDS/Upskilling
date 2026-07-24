@@ -1,4 +1,4 @@
-# Maintainer guide (ICDS Project Management Office)
+# Maintainer guide 
 
 This page is for maintainers who keeps the repository tidy. Contributors do not need to read it. The aim is to make maintenance quick and low-stress.
 

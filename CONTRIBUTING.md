@@ -64,7 +64,7 @@ If you would rather fill out a form, use the ICDS resource-suggestion form:
 
 > **Form link:** _To be added._ Until the form is live, please use Path 3 or Path 4.
 
-The ICDS Project Management Office reviews form submissions and adds them to the repository for you, usually within a week.
+ICDS can review form submissions and add them to the repository for you, ideally within a week or two.
 
 ### Path 3: GitHub Issue (a guided prompt, still no file editing)
 
