@@ -1,0 +1,35 @@
+title: AI Upskilling Resources
+description: Community-curated learning resources for Penn State faculty getting started with AI.
+
+# Minima ships a default.html layout, so pages with `layout: default`
+# in their front matter render inside it instead of erroring on a
+# missing layout. (GitHub Pages defaults to jekyll-theme-primer if this
+# isn't set; this just picks a specific theme deliberately.)
+theme: minima
+
+markdown: kramdown
+
+# Note: GitHub Pages bundles the jekyll-optional-front-matter plugin, so
+# front matter is NOT required for a markdown file to become a page.
+# The files that don't build (CONTRIBUTING.md, LICENSE.md,
+# CODE_OF_CONDUCT.md) are excluded because their exact filenames match
+# GitHub's reserved "community health file" list, not because they lack
+# front matter. See contributing-page.md / license-page.md /
+# code-of-conduct-page.md for the workaround (mirror pages with a
+# different filename and an explicit permalink).
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
+# Keep internal/non-public files out of the built site.
+exclude:
+  - CLAUDE.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+  - .claudeignore

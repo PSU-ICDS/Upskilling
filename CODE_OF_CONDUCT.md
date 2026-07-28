@@ -20,6 +20,6 @@ Link to resources rather than re-hosting copyrighted material you do not own. On
 
 ## Reporting a problem
 
-If you see content that breaks these guidelines, or you have a concern about someone's conduct, email `ICDS-FACULTY-UPSKILLING@lists.psu.edu`. Maintainers may edit or remove content, and may decline contributions, to keep the repository useful and respectful.
+If you see content that breaks these guidelines, or you have a concern about someone's conduct, email `icds@psu.edu` with the subject line "AI Upskilling Learning Repository: Conduct" Maintainers may edit or remove content, and may decline contributions, to keep the repository useful and respectful.
 
 This repository also operates under applicable Penn State University policies.

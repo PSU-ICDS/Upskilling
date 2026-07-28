@@ -14,9 +14,9 @@ Most weeks, maintenance is three things: merge pull requests, transcribe submiss
 2. Fix small issues yourself by committing to the PR branch, or leave a friendly comment asking the contributor to adjust. Faculty are volunteers; keep feedback kind and short.
 3. Click **Merge**. Done. GitHub renders the updated page immediately.
 
-### Transcribe an issue, form, or email submission
+### Transcribe an issue or email submission
 
-When someone uses the "Suggest a resource" issue form, the online form, or email, the content is not yet in a file. You add it:
+When someone uses the "Suggest a resource" issue form or email, the content is not yet in a file. You add it:
 
 1. Open the relevant category page under `resources/` (for example, `resources/courses/README.md`).
 2. Click the pencil (Edit) icon, paste the entry template from `templates/resource-entry-template.md`, and fill it from the submission.
@@ -50,14 +50,6 @@ Two options, described for contributors in `resources/community-repos/README.md`
   ```
 
   This pins a reference without copying files, and the original author keeps control. Note the source repository's own license in the entry. To update the pinned version later: `git submodule update --remote resources/community-repos/repo-name`, then commit.
-
-## Setting up the online form
-
-The form path in `CONTRIBUTING.md` currently says "to be added." To finish it:
-
-1. Create a Microsoft Form or Google Form with fields matching the issue form (title, link, category, level, modality, purpose, recommendation, name, note, and a CC BY-SA 4.0 acknowledgment).
-2. Route responses to a mailbox that will watch for contributions.
-3. Paste the form's share link into `CONTRIBUTING.md` under "Path 2," replacing the placeholder.
 
 ## Using Claude to help
 

@@ -46,11 +46,11 @@ See [templates/resource-entry-template.md](templates/resource-entry-template.md)
 You do not need to be an advanced AI user to use or contribute to this repository.  
 Researchers from all disciplines are welcome to contribute.  
 And we welcome perspectives from people just getting started on their AI journey, as well as those who bring extensive experience.
-There is a path for adding resources, regardless of your comfort level with GitHub. Full instructions are in [CONTRIBUTING.md](CONTRIBUTING.md). In short:
+There is a path for adding resources, regardless of your comfort level with GitHub. Full instructions are in [CONTRIBUTING.md](CONTRIBUTING.html). In short:
 
 - **Comfortable with GitHub?** Open a pull request. Edit the relevant category page right in your browser, paste in the entry template, and submit.
 - **Prefer a web form?** Open a GitHub Issue using the "Suggest a resource" template. 
-- **Rather not touch GitHub at all?** Email your suggest the details to `ICDS-FACULTY-UPSKILLING@lists.psu.edu`.  See resource-suggestion form (see [CONTRIBUTING.md](CONTRIBUTING.md) for what to include.
+- **Rather not touch GitHub at all?** Email the details to `icds@psu.edu` with the subject line "AI Upskilling Learning Repository: Suggestion" (see [CONTRIBUTING.md](CONTRIBUTING.html) for what to include).
 
 You do not need to write anything long. A title, a link, a couple of tags, and one sentence about how useful you found it is plenty.
 
@@ -67,7 +67,7 @@ Then browse the full collection by category below.
 
 ## License
 
-Content in this repository is licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](LICENSE.md). You are free to share and adapt the material, including for commercial purposes, as long as you give appropriate credit and share any adaptations under the same license. Linked external resources remain under their own licenses and terms.
+Content in this repository is licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](LICENSE.html). You are free to share and adapt the material, including for commercial purposes, as long as you give appropriate credit and share any adaptations under the same license. Linked external resources remain under their own licenses and terms.
 
 ## Accessibility
 
@@ -79,4 +79,4 @@ This repository is a community effort.
 Maintainers review and merge pull requests, and transcribe form/email submissions. 
 Contributions come from individual researchers, primarily from the ICDS community.  
 Claude created the structure and templates.  
-Send questions to  `ICDS-FACULTY-UPSKILLING@lists.psu.edu`.
+Send questions to `icds@psu.edu` with the subject line "AI Upskilling learning repository question"

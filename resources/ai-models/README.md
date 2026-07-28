@@ -52,10 +52,11 @@ Multiple 2026 Upskilling Fellows reached for Claude as a general-purpose researc
 
 **Modality:** Text· **Purpose:** Productivity, Writing
 
-GMultiple 2026 Upskilling Fellows reached for it as a general-purpose research, writing, and learning partner across very different fields.  Haiku and Sonnet are avaliable via AIStudio. 
+Multiple 2026 Upskilling Fellows reached for it as a general-purpose research, writing, and learning partner across very different fields.  Haiku and Sonnet are avaliable via AIStudio. 
 
 **Reviews:**
 - 07/2026 — **Eric Ford** — Recommend. Good for summarizing text, categorizing responses.
+
 ---
 
 ## [Penn State AI Services: model and tool overview](https://ai.psu.edu/ai-services)

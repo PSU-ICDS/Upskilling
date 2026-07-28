@@ -55,4 +55,4 @@ WCAG 2.2 was published as a W3C Recommendation. Level AA is the conformance leve
 
 ## Report challenges
 
-We want every member of the Penn State community to be able to read, navigate, and contribute to this repository, including people who use screen readers, keyboard-only navigation, screen magnification, or high-contrast settings. If you encounter a barrier, please open an issue or email `ICDS-FACULTY-UPSKILLING@lists.psu.edu`.
+We want every member of the Penn State community to be able to read, navigate, and contribute to this repository, including people who use screen readers, keyboard-only navigation, screen magnification, or high-contrast settings. If you encounter a barrier, please open an issue or email `icds@psu.edu` with the subject line "AI Upskilling Learning Repository: Accessibility"

@@ -49,25 +49,35 @@ Add your entry under the right category heading. If a resource could fit several
 
 ### Path 1: Pull request (if you are comfortable with GitHub)
 
-This is the fastest path and needs no maintainer transcription. You can do it entirely in your web browser.
+This is the fastest path and needs no maintainer transcription. It works entirely in your web browser, or from the command line if you prefer working locally.
+
+#### Repository structure
+
+This repository is plain Markdown, browsable and editable right on GitHub, no build step or local tooling required. Resource entries live in the category pages under `resources/` (for example, `resources/courses/README.md`); detail pages live under `details/`; and the entry template lives at `templates/resource-entry-template.md`. There is no staging branch: pull requests are opened directly against `main`, and GitHub renders the updated Markdown as soon as a maintainer merges.
+
+#### Quick edit in your browser
 
 1. Navigate to the category page you want to edit, for example [resources/courses/README.md](resources/courses/README.md).
-2. Click the **pencil (Edit)** icon in the top-right of the file view.
+2. Click the **pencil (Edit)** icon in the top-right of the file view. If you do not have write access, GitHub automatically creates a fork for you behind the scenes.
 3. Paste in the entry template and fill it out. Keep entries in the file grouped sensibly (alphabetical by title is fine).
 4. Scroll down, choose **"Create a new branch for this commit and start a pull request,"** and click **Propose changes**.
 5. Add a short title for your pull request and submit it. A maintainer will review and merge it.
 
 A pull request template will prompt you for the same information, so you cannot really get it wrong.
 
-### Path 2: Online form (no GitHub account needed)
+#### Working from your own fork (for Git users who prefer to work locally)
 
-If you would rather fill out a form, use the ICDS resource-suggestion form:
+If you would rather edit files on your own machine, or you are contributing several entries at once:
 
-> **Form link:** _To be added._ Until the form is live, please use Path 3 or Path 4.
+1. Create your own fork of the `PSU-ICDS/AI-Upskilling-Resources` repository ([how to fork a repo](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)).
+2. Clone your fork locally and create a branch for your changes.
+3. Add or edit entries in the relevant `resources/<category>/README.md` file, following the [entry format](#the-entry-format) above. Since this is plain Markdown, you can preview it in any Markdown viewer or editor; no local build is needed.
+4. Commit and push your branch to your fork.
+5. Open a pull request from your branch to the `main` branch of this repository ([how to create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)). A maintainer will review and merge it.
 
-ICDS can review form submissions and add them to the repository for you, ideally within a week or two.
+New to Git and want to learn more? We recommend the ["Version Control with Git" lesson](https://swcarpentry.github.io/git-novice/) from [The Carpentries](https://carpentries.org/).
 
-### Path 3: GitHub Issue (a guided prompt, still no file editing)
+### Path 2: GitHub Issue (a guided prompt, still no file editing)
 
 If you have a GitHub account but do not want to edit files:
 
@@ -77,11 +87,11 @@ If you have a GitHub account but do not want to edit files:
 
 A maintainer will turn your issue into a proper entry.
 
-### Path 4: Email the ICDS (no GitHub at all)
+### Path 3: Email the ICDS (no GitHub at all)
 
 If GitHub is not for you, just send the details by email:
 
-> **Email:** `ICDS-FACULTY-UPSKILLING@lists.psu.edu` with the subject line **"Upskilling resource suggestion."**
+> **Email:** `icds@psu.edu` with the subject line **"AI Upskilling Learning Repository: Suggestion"**
 
 Include the title, the link, your recommendation, and a sentence about why. If you developed a file yourself (a slide deck, a handout, a notebook) and want it hosted here, attach it and let us know how you would like to be credited.
 
@@ -95,6 +105,13 @@ If you have an entire GitHub repository of materials, we can link it or incorpor
 
 By contributing, you agree that your original contributions are licensed under [CC BY-SA 4.0](LICENSE.md), and you confirm you have the right to share what you submit. Linking to a public resource is always fine. Uploading someone else's copyrighted material is not, so link to it instead.
 
+## Helpful links
+
+- [Markdown Guide](https://www.markdownguide.org/)
+- [How to create a fork in GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)
+- [How to create a pull request in GitHub](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
+- ["Version Control with Git" (The Carpentries)](https://swcarpentry.github.io/git-novice/)
+
 ## Questions
 
-Email the ICDS Upskilling list at `ICDS-FACULTY-UPSKILLING@lists.psu.edu`.
+Email the ICDS Upskilling list at `icds@psu.edu` with the subject line "AI Upskilling Learning Repository: Suggestion"

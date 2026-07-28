@@ -1,7 +1,7 @@
 <!--
 Thank you for contributing! This template helps you add a resource correctly.
 You can edit everything right in your browser. A maintainer will review and merge.
-Not comfortable with pull requests? See CONTRIBUTING.md for form, issue, and email options.
+Not comfortable with pull requests? See CONTRIBUTING.md for issue and email options.
 -->
 
 ## What are you adding or changing?
