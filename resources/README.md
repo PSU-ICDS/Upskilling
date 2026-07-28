@@ -1,3 +1,7 @@
+---
+title: Resources
+---
+
 # Resources
 
 This folder holds the selected learning resources, grouped by type. Pick a category below, or start with the featured list on the [repository home page](../README.md#start-here).
@@ -18,4 +22,4 @@ Every entry has a linked title, a line of plain-text tags (Level, Modality, Purp
 
 ## How to add one
 
-See [CONTRIBUTING.md](../CONTRIBUTING.md). There is a path for every comfort level with GitHub, including a pull request, a GitHub issue, or an email. Copy the [entry template](../templates/resource-entry-template.md), fill it in, and drop it under the right category.
+See [CONTRIBUTING.md](../CONTRIBUTING.html). There is a path for every comfort level with GitHub, including a pull request, a GitHub issue, or an email. Copy the [entry template](../templates/resource-entry-template.md), fill it in, and drop it under the right category.

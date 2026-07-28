@@ -37,4 +37,4 @@ For PDFs containing sensitive or restricted data, confirm the tool runs locally 
 
 ---
 
-_Remember: descriptive link text, alt text on any images, headings in order. See [ACCESSIBILITY.md](../ACCESSIBILITY.md)._
+_Remember: descriptive link text, alt text on any images, headings in order. See [ACCESSIBILITY.md](../ACCESSIBILITY.html)._

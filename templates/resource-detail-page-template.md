@@ -36,4 +36,4 @@ Setup notes, costs, time required, data-sensitivity considerations for universit
 
 ---
 
-_Remember: descriptive link text, alt text on any images, headings in order. See [ACCESSIBILITY.md](../ACCESSIBILITY.md)._
+_Remember: descriptive link text, alt text on any images, headings in order. See [ACCESSIBILITY.md](../ACCESSIBILITY.html)._

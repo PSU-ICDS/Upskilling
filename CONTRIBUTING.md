@@ -23,7 +23,7 @@ Pick whatever fits. When in doubt, guess, a maintainer can adjust it.
 - **Recommendation:** `Highly Recommend`, `Recommend`, `Neutral`, `Do Not Recommend`
 - **Date:** `YYYY`, or `MM/YYYY` for more precision
 
-Tags are always written as plain words, never as color alone, so the repository stays accessible to everyone. See [ACCESSIBILITY.md](ACCESSIBILITY.md).
+Tags are always written as plain words, never as color alone, so the repository stays accessible to everyone. See [ACCESSIBILITY.md](ACCESSIBILITY.html).
 
 ## The entry format
 
@@ -103,7 +103,7 @@ If you have an entire GitHub repository of materials, we can link it or incorpor
 
 ## Licensing your contribution
 
-By contributing, you agree that your original contributions are licensed under [CC BY-SA 4.0](LICENSE.md), and you confirm you have the right to share what you submit. Linking to a public resource is always fine. Uploading someone else's copyrighted material is not, so link to it instead.
+By contributing, you agree that your original contributions are licensed under [CC BY-SA 4.0](LICENSE.html), and you confirm you have the right to share what you submit. Linking to a public resource is always fine. Uploading someone else's copyrighted material is not, so link to it instead.
 
 ## Helpful links
 

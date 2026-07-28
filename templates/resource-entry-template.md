@@ -51,4 +51,4 @@ _More info: [optional detail page](../../details/your-detail-page.md)_
 
 ## Accessibility reminder
 
-Write tags as words, never color alone. Give any images alt text. Keep link text descriptive. See [ACCESSIBILITY.md](../ACCESSIBILITY.md).
+Write tags as words, never color alone. Give any images alt text. Keep link text descriptive. See [ACCESSIBILITY.md](../ACCESSIBILITY.html).

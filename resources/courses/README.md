@@ -1,3 +1,7 @@
+---
+title: Courses
+---
+
 # Courses
 
 Structured, multi-module courses and certificate programs for building AI skills. Ordered alphabetically by title. New here? The first two entries are good starting points.
@@ -63,4 +67,4 @@ One-line description of what the course covers.
 --- 
 
 
-To add a course, copy the block in [templates/resource-entry-template.md](../../templates/resource-entry-template.md) and paste it below, keeping the list alphabetical. See [CONTRIBUTING.md](../../CONTRIBUTING.md) for step-by-step help.
+To add a course, copy the block in [templates/resource-entry-template.md](../../templates/resource-entry-template.md) and paste it below, keeping the list alphabetical. See [CONTRIBUTING.md](../../CONTRIBUTING.html) for step-by-step help.

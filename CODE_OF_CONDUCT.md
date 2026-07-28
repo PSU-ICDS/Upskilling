@@ -16,7 +16,7 @@ Add resources that genuinely help people upskill in AI. Do not use the repositor
 
 ## Respect copyright
 
-Link to resources rather than re-hosting copyrighted material you do not own. Only upload files you created or have permission to share. See [LICENSE.md](LICENSE.md).
+Link to resources rather than re-hosting copyrighted material you do not own. Only upload files you created or have permission to share. See [LICENSE.md](LICENSE.html).
 
 ## Reporting a problem
 

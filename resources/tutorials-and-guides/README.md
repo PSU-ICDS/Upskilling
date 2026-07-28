@@ -1,3 +1,7 @@
+---
+title: Tutorials & Guides
+---
+
 # Tutorials and guides
 
 Shorter how-to walkthroughs, cheat sheets, reference libraries, and written guides. Good when you want to solve a specific problem or skim an overview rather than commit to a full course. Ordered alphabetically by title.
@@ -44,4 +48,4 @@ One-line description.
 -->
 
 --- 
-To add an entry, copy the block in [templates/resource-entry-template.md](../../templates/resource-entry-template.md) and paste it below. See [CONTRIBUTING.md](../../CONTRIBUTING.md).
+To add an entry, copy the block in [templates/resource-entry-template.md](../../templates/resource-entry-template.md) and paste it below. See [CONTRIBUTING.md](../../CONTRIBUTING.html).

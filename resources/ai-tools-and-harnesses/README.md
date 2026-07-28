@@ -1,3 +1,7 @@
+---
+title: AI Tools & Harnesses
+---
+
 # AI tools and harnesses
 
 Assistants, agents, coding environments (IDEs), notebooks, and platforms that wrap AI models into something you actually use to get work done. If a model is the engine, a harness is the car built around it. Ordered alphabetically by title.
@@ -84,6 +88,6 @@ One line on what it does and who it suits.
 
 ---
 
-To add an entry, copy the block in [templates/resource-entry-template.md](../../templates/resource-entry-template.md). See [CONTRIBUTING.md](../../CONTRIBUTING.md).
+To add an entry, copy the block in [templates/resource-entry-template.md](../../templates/resource-entry-template.md). See [CONTRIBUTING.md](../../CONTRIBUTING.html).
 
 As with models, confirm a tool is approved for your data before using it for university work. See Penn State's [AI Services](https://ai.psu.edu/ai-services) and [Best Practices for Using AI Tools](https://ai.psu.edu/ai-services/best-practices-for-using-ai-tools).

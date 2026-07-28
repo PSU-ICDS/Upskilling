@@ -39,7 +39,7 @@ Each entry carries a few short, plain-text tags so you can judge fit at a glance
 
 **Recommendation** (the reviewer's verdict): `Highly Recommend`, `Recommend`, `Neutral`, `Do Not Recommend`.
 
-See [templates/resource-entry-template.md](templates/resource-entry-template.md) for the exact format, and [ACCESSIBILITY.md](ACCESSIBILITY.md) for why we tag this way.
+See [templates/resource-entry-template.md](templates/resource-entry-template.md) for the exact format, and [ACCESSIBILITY.md](ACCESSIBILITY.html) for why we tag this way.
 
 ### Add a resource
 
@@ -71,7 +71,7 @@ Content in this repository is licensed under [Creative Commons Attribution-Share
 
 ## Accessibility
 
-We aim to meet [WCAG 2.2 Level AA](ACCESSIBILITY.md). If you find something that is hard to read or use, please open an issue, so we can fix it.
+We aim to meet [WCAG 2.2 Level AA](ACCESSIBILITY.html). If you find something that is hard to read or use, please open an issue, so we can fix it.
 
 ## Maintainers
 
@@ -79,4 +79,4 @@ This repository is a community effort.
 Maintainers review and merge pull requests, and transcribe form/email submissions. 
 Contributions come from individual researchers, primarily from the ICDS community.  
 Claude created the structure and templates.  
-Send questions to `icds@psu.edu` with the subject line "AI Upskilling learning repository question"
+Send questions to `icds@psu.edu` with the subject line "AI Upskilling Learning Repository: Question"
