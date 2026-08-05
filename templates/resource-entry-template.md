@@ -1,6 +1,8 @@
 # Resource entry template
 
-Copy the block below, paste it under the right category page in [`resources/`](../resources/README.md), and fill it in. Delete the guidance lines you do not need. Keep entries alphabetical by title within a page.
+Copy the block below, paste it under the right category page in your hub's `resources/` folder, and fill it in. Delete the guidance lines you do not need. Keep entries alphabetical by title within a page.
+
+First pick your hub: entries live at `<hub>/resources/<category>/README.md`, for example `ai/resources/courses/README.md`. See [the five hubs](../README.md#the-five-hubs) if you are not sure which one fits. Pick the closest; a maintainer can move it later.
 
 ## The block to copy
 
@@ -13,7 +15,7 @@ Copy the block below, paste it under the right category page in [`resources/`](.
 
 - MM/YYYY or YYYY — **Your Name** — Highly Recommend. One or two sentences on why this was useful.
 
-_More info: [optional detail page](../../details/your-detail-page.md)_
+_More info: [optional detail page](../../../details/your-detail-page.md)_
 ```
 
 ## Filling it in
@@ -32,7 +34,7 @@ _More info: [optional detail page](../../details/your-detail-page.md)_
 - Recommendation options: `Highly Recommend`, `Recommend`, `Neutral`, `Do Not Recommend`.
 - If the resource is already listed and you have used it, **add another bullet under the existing entry** instead of creating a duplicate. Multiple opinions are welcome.
 
-**More info (optional).** If you want to write more (a longer review, setup notes, screenshots), create a page under [`details/`](../details) using the [detail-page template](resource-detail-page-template.md) and link it here. Otherwise delete this line.
+**More info (optional).** If you want to write more (a longer review, setup notes, screenshots), create a page under [`details/`](../details/README.md) using the [detail-page template](resource-detail-page-template.md) and link it here. Otherwise delete this line.
 
 ## A filled-in example
 

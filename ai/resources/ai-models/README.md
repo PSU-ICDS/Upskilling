@@ -88,6 +88,6 @@ One line on what it is and what it is good at.
 -->
 
 ---
-To add an entry, copy the block in [templates/resource-entry-template.md](../../templates/resource-entry-template.md). See [CONTRIBUTING.md](../../CONTRIBUTING.html).
+To add an entry, copy the block in [templates/resource-entry-template.md](../../../templates/resource-entry-template.md). See [CONTRIBUTING.md](../../../CONTRIBUTING.html).
 
 Before using any AI model for university work, check what is approved for your data. Penn State's [AI Comparison Table](https://ai.psu.edu/ai-services/ai-comparison-table) and [AI Tools: Help Me Choose](https://ai.psu.edu/ai-services/ai-tool-recommendation) are the authoritative guides on approved tools and data-sensitivity levels.

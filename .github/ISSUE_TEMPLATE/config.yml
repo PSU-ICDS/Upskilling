@@ -1,8 +1,8 @@
 blank_issues_enabled: true
 contact_links:
   - name: Email ICDS
-    url: mailto:icds@psu.edu?subject=AI%20Upskilling%20Learning%20Repository%3A%20Suggestion
-    about: 'Prefer not to use GitHub? Email your resource suggestion (subject: "AI Upskilling Learning Repository: Suggestion").'
+    url: mailto:icds@psu.edu?subject=ICDS%20Upskilling%20Learning%20Repository%3A%20Suggestion
+    about: 'Prefer not to use GitHub? Email your resource suggestion (subject: "ICDS Upskilling Learning Repository: Suggestion").'
   - name: Contribution guide
-    url: https://github.com/PSU-ICDS/AI-Upskilling-Resources/CONTRIBUTING.md
+    url: https://github.com/PSU-ICDS/AI-Upskilling-Resources/blob/main/CONTRIBUTING.md
     about: See CONTRIBUTING.md for all the ways to add a resource (pull request, issue, or email).
