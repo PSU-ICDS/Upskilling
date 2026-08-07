@@ -1,0 +1,73 @@
+---
+# Empty front matter, but it has to be here: it is what tells Jekyll to
+# run this file through Sass and publish it as /assets/main.css.
+#
+# Minima's head.html links to /assets/main.css. A file at this same path
+# in the repository takes precedence over the theme's own copy, so this
+# is the supported way to restyle minima without forking it.
+---
+
+// ---------------------------------------------------------------------
+// Theme variables. These have to be set *before* the import: minima
+// declares its variables with `!default`, so a value set here wins.
+// ---------------------------------------------------------------------
+
+// Minima's default page width is 800px, which leaves only 740px between
+// the gutters. The site title plus the five hub links plus "Contribute"
+// need more room than that, so the nav wrapped onto a second line. This
+// widens the gutters' inner limit for the header, the content, and the
+// footer together, so everything stays aligned on one left edge.
+$content-width: 1280px;
+
+@import "minima";
+
+// ---------------------------------------------------------------------
+// Header layout. Minima floats the title left and the nav right, which
+// gives the links no way to stay together when space runs short. Flexbox
+// keeps them on one line while there is room, and drops the whole nav to
+// its own line as a unit when there isn't, instead of breaking the list
+// in the middle.
+//
+// Scoped to 601px and up: below that, minima swaps in the hamburger menu
+// and positions the nav absolutely, which these rules must not disturb.
+// ---------------------------------------------------------------------
+
+@media screen and (min-width: 601px) {
+  .site-header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px 30px;
+  }
+
+  .site-title {
+    float: none;
+    font-size: 1.5rem;
+  }
+
+  .site-nav {
+    float: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .site-nav .trigger {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 8px 20px;
+  }
+
+  .site-nav .page-link {
+    // 15px. Still comfortably above the 12px floor for body-sized text,
+    // and it buys back roughly 50px across the six links.
+    font-size: 0.9375rem;
+
+    // A hub name should never break mid-name ("Computational" on one
+    // line, "Sciences" on the next).
+    white-space: nowrap;
+
+    // Spacing now comes from the flex gap above.
+    margin-right: 0;
+  }
+}
