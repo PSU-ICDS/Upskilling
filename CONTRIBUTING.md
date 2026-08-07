@@ -8,11 +8,11 @@ Resources are organized by the five ICDS research hubs. Before anything else, de
 
 | Hub | Folder |
 |---|---|
-| Artificial Intelligence | [ai](ai/README.md) |
-| Computational Sciences | [computational](computational/README.md) |
-| Data Sciences | [data](data/README.md) |
-| Digital Twins | [digital-twins](digital-twins/README.md) |
-| Quantum Sciences | [quantum](quantum/README.md) |
+| Artificial Intelligence | [ai](ai/README.html) |
+| Computational Sciences | [computational](computational/README.html) |
+| Data Sciences | [data](data/README.html) |
+| Digital Twins | [digital-twins](digital-twins/README.html) |
+| Quantum Sciences | [quantum](quantum/README.html) |
 
 If a resource could fit more than one hub, pick the closest. A maintainer can move it later, and that is a two-minute job, so do not agonize over it. Hubs other than Artificial Intelligence are new and may have no entries yet; adding the first one is welcome.
 
@@ -77,7 +77,7 @@ Each hub is a top-level folder with the same shape, so once you learn one you kn
 <hub>/resources/<category>/README.md     where entries actually live
 ```
 
-For example, a course for the AI Hub goes in `ai/resources/courses/README.md`. Detail pages are shared across hubs and live under `details/`; the entry template lives at `templates/resource-entry-template.md`.
+For example, a course for the AI Hub goes in `ai/resources/courses/README.html`. Detail pages are shared across hubs and live under `details/`; the entry template lives at `templates/resource-entry-template.md`.
 
 If your hub does not have a page for your category yet, say so in your pull request or issue and a maintainer will create it. You do not have to set up folders yourself.
 
@@ -85,7 +85,7 @@ There is no staging branch: pull requests are opened directly against `main`, an
 
 #### Quick edit in your browser
 
-1. Navigate to the category page you want to edit, for example [ai/resources/courses/README.md](ai/resources/courses/README.md).
+1. Navigate to the category page you want to edit, for example [ai/resources/courses/README.md](ai/resources/courses/README.html).
 2. Click the **pencil (Edit)** icon in the top-right of the file view. If you do not have write access, GitHub automatically creates a fork for you behind the scenes.
 3. Paste in the entry template and fill it out. Keep entries in the file grouped sensibly (alphabetical by title is fine).
 4. Scroll down, choose **"Create a new branch for this commit and start a pull request,"** and click **Propose changes**.
@@ -127,7 +127,7 @@ Include the title, the link, your recommendation, and a sentence about why. If y
 
 ## Sharing a whole repository
 
-If you have an entire GitHub repository of materials, we can link it or incorporate it. See the AI Hub's [community repositories page](ai/resources/community-repos/README.md) for how we handle these, including the option to add it as a git submodule. Mention this in your pull request, issue, or email and a maintainer will help.
+If you have an entire GitHub repository of materials, we can link it or incorporate it. See the AI Hub's [community repositories page](ai/resources/community-repos/README.html) for how we handle these, including the option to add it as a git submodule. Mention this in your pull request, issue, or email and a maintainer will help.
 
 ## Licensing your contribution
 
