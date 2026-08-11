@@ -1,8 +1,8 @@
 # [Anthropic: Learn](https://www.anthropic.com/learn)
 
-This is an example detail page. It shows the depth an entry can have when a reviewer wants to say more than fits on a single line. It is linked from the [Courses](../resources/courses/README.md) page. Replace it with real detail pages as Fellows contribute them, or keep it as a worked example.
+This is an example detail page. It shows the depth an entry can have when a reviewer wants to say more than fits on a single line. It is linked from the [Courses](../ai/resources/courses/README.md) page. Replace it with real detail pages as Fellows contribute them, or keep it as a worked example.
 
-**Category:** Courses
+**Hub:** Artificial Intelligence · **Category:** Courses
 
 **Level:** Beginner · **Modality:** Text, Code · **Purpose:** Coding, Productivity, Research
 
@@ -28,5 +28,5 @@ The material centers on one vendor's tools, so treat it as a deep example rather
 
 ## Related
 
-- [Courses](../resources/courses/README.md)
+- [Courses](../ai/resources/courses/README.md)
 - [AI at Penn State: Resource Library](https://ai.psu.edu/resources/resource-library)

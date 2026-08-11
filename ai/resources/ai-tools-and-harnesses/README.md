@@ -47,7 +47,7 @@ Penn State's own AI assistant environment, provided for the university community
 
 ---
 
-## [PDF-to-Markdown converters](../../details/pdf-to-markdown-converters.md)
+## [PDF-to-Markdown converters](../../../details/pdf-to-markdown-converters.md)
 
 **Level:** Beginner · **Modality:** Text, Code · **Purpose:** Research, Productivity
 
@@ -57,7 +57,7 @@ Converting PDFs to Markdown makes papers and reports easier to search, edit, and
 - 07/2026 — **Sona Golder** — Highly Recommend. See the detail page for specific tools tried.
 - 07/2026 — **Eric Ford** — Highly Recommend. See the detail page for specific tools tried, including [markitdown](https://github.com/microsoft/markitdown) and [arxiv2md](http://arxiv2md.org/).
 
-_More info: [PDF-to-Markdown converters (detail page)](../../details/pdf-to-markdown-converters.md)_
+_More info: [PDF-to-Markdown converters (detail page)](../../../details/pdf-to-markdown-converters.md)_
 
 
 
@@ -88,6 +88,6 @@ One line on what it does and who it suits.
 
 ---
 
-To add an entry, copy the block in [templates/resource-entry-template.md](../../templates/resource-entry-template.md). See [CONTRIBUTING.md](../../CONTRIBUTING.html).
+To add an entry, copy the block in [templates/resource-entry-template.md](../../../templates/resource-entry-template.md). See [CONTRIBUTING.md](../../../CONTRIBUTING.html).
 
 As with models, confirm a tool is approved for your data before using it for university work. See Penn State's [AI Services](https://ai.psu.edu/ai-services) and [Best Practices for Using AI Tools](https://ai.psu.edu/ai-services/best-practices-for-using-ai-tools).

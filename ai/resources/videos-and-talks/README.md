@@ -24,6 +24,6 @@ One line on the content. Note length and whether captions/transcript exist.
 html
 --- 
 
-To add an entry, copy the block in [templates/resource-entry-template.md](../../templates/resource-entry-template.md). See [CONTRIBUTING.md](../../CONTRIBUTING.html).
+To add an entry, copy the block in [templates/resource-entry-template.md](../../../templates/resource-entry-template.md). See [CONTRIBUTING.md](../../../CONTRIBUTING.html).
 
 When you add a video, note its rough length in your review so people can plan. If captions or a transcript are available, mention that, it helps everyone and supports accessibility.

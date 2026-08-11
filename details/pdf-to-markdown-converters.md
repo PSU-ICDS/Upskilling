@@ -1,6 +1,6 @@
 # PDF-to-Markdown converters
 
-**Category:** Tutorials and guides
+**Hub:** Artificial Intelligence · **Category:** Tutorials and guides
 
 **Level:** Beginner · **Modality:** Text· **Purpose:** Research, Literature Search, Productivity
 
@@ -32,8 +32,8 @@ For PDFs containing sensitive or restricted data, confirm the tool runs locally 
 
 ## Related
 
-- [Tutorials and guides](../resources/tutorials-and-guides/README.md)
-- [AI tools and harnesses](../resources/ai-tools-and-harnesses/README.md)
+- [Tutorials and guides](../ai/resources/tutorials-and-guides/README.md)
+- [AI tools and harnesses](../ai/resources/ai-tools-and-harnesses/README.md)
 
 ---
 

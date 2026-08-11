@@ -11,9 +11,13 @@ Not comfortable with pull requests? See CONTRIBUTING.md for issue and email opti
 - [ ] A correction or edit
 - [ ] Something else (describe below)
 
+## Which hub?
+
+<!-- Artificial Intelligence, Computational Sciences, Data Sciences, Digital Twins, or Quantum Sciences. Not sure? Say so and a maintainer will place it. -->
+
 ## Which category?
 
-<!-- e.g., Courses, Tutorials and guides, AI models, AI tools and harnesses, Books and articles, Videos and talks, Community repositories -->
+<!-- e.g., Courses, Tutorials and guides, Tools and software, Books and articles, Videos and talks, Community repositories. The Artificial Intelligence hub also has AI models and AI tools and harnesses. -->
 
 ## Your entry
 

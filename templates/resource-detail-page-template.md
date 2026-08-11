@@ -1,12 +1,14 @@
 # Detail page template
 
-Use this when a resource deserves more than a few lines. Copy this file into [`details/`](../details), give it a descriptive name (for example, `claude-code-getting-started.md`), fill it in, and link to it from the resource's entry with a `_More info:_` line.
+Use this when a resource deserves more than a few lines. Copy this file into [`details/`](../details/README.md), give it a descriptive name (for example, `claude-code-getting-started.md`), fill it in, and link to it from the resource's entry with a `_More info:_` line. Detail pages are shared across all five hubs, so name the hub at the top of the page.
 
 ---
 
 # [Resource title](https://link-to-the-resource)
 
-**Category:** Courses / Tutorials and guides / AI models / AI tools and harnesses / Books and articles / Videos and talks / Community repositories (pick one)
+**Hub:** Artificial Intelligence / Computational Sciences / Data Sciences / Digital Twins / Quantum Sciences (pick one)
+
+**Category:** Courses / Tutorials and guides / Tools and software / Books and articles / Videos and talks / Community repositories (pick one; the AI Hub also has AI models and AI tools and harnesses)
 
 **Level:** Beginner · **Modality:** Text · **Purpose:** Research
 
