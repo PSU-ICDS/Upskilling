@@ -1,4 +1,4 @@
-# Community guidelines
+# Community guidelines for everyone
 
 This repository is a shared, public space for the Penn State community. A few expectations keep it useful and welcoming.
 
