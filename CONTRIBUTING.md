@@ -1,6 +1,20 @@
 # Contributing a resource
 
-Thank you for helping other Penn State faculty find their footing with AI. This page explains how to add a learning resource, no matter how comfortable you are with GitHub. Every path ends with the same result: your recommendation, with your name on it, helping a colleague.
+Thank you for helping other Penn State researchers find their footing. This page explains how to add a learning resource, no matter how comfortable you are with GitHub. Every path ends with the same result: your recommendation, with your name on it, helping a colleague.
+
+## Pick a hub first
+
+Resources are organized by the five ICDS research hubs. Before anything else, decide which one your resource belongs to:
+
+| Hub | Folder |
+|---|---|
+| Artificial Intelligence | [ai](ai/README.html) |
+| Computational Sciences | [computational](computational/README.html) |
+| Data Sciences | [data](data/README.html) |
+| Digital Twins | [digital-twins](digital-twins/README.html) |
+| Quantum Sciences | [quantum](quantum/README.html) |
+
+If a resource could fit more than one hub, pick the closest. A maintainer can move it later, and that is a two-minute job, so do not agonize over it. Hubs other than Artificial Intelligence are new and may have no entries yet; adding the first one is welcome.
 
 ## What makes a good entry
 
@@ -38,10 +52,10 @@ Copy the block from [templates/resource-entry-template.md](templates/resource-en
 
 - MM/YYYY or YYYY — **Your Name** — Highly Recommend. One or two sentences on why this was useful.
 
-_More info: [optional detail page](../../details/example-detail-page.md)_
+_More info: [optional detail page](../../../details/example-detail-page.md)_
 ```
 
-Add your entry under the right category heading. If a resource could fit several categories, pick the closest one.
+Add your entry under the right category heading in the right hub. If a resource could fit several categories, pick the closest one.
 
 ---
 
@@ -53,11 +67,25 @@ This is the fastest path and needs no maintainer transcription. It works entirel
 
 #### Repository structure
 
-This repository is plain Markdown, browsable and editable right on GitHub, no build step or local tooling required. Resource entries live in the category pages under `resources/` (for example, `resources/courses/README.md`); detail pages live under `details/`; and the entry template lives at `templates/resource-entry-template.md`. There is no staging branch: pull requests are opened directly against `main`, and GitHub renders the updated Markdown as soon as a maintainer merges.
+This repository is plain Markdown, browsable and editable right on GitHub, no build step or local tooling required.
+
+Each hub is a top-level folder with the same shape, so once you learn one you know them all:
+
+```
+<hub>/README.md                          the hub's home page
+<hub>/resources/README.md                the hub's category index
+<hub>/resources/<category>/README.md     where entries actually live
+```
+
+For example, a course for the AI Hub goes in `ai/resources/courses/README.html`. Detail pages are shared across hubs and live under `details/`; the entry template lives at `templates/resource-entry-template.md`.
+
+If your hub does not have a page for your category yet, say so in your pull request or issue and a maintainer will create it. You do not have to set up folders yourself.
+
+There is no staging branch: pull requests are opened directly against `main`, and GitHub renders the updated Markdown as soon as a maintainer merges.
 
 #### Quick edit in your browser
 
-1. Navigate to the category page you want to edit, for example [resources/courses/README.md](resources/courses/README.md).
+1. Navigate to the category page you want to edit, for example [ai/resources/courses/README.md](ai/resources/courses/README.html).
 2. Click the **pencil (Edit)** icon in the top-right of the file view. If you do not have write access, GitHub automatically creates a fork for you behind the scenes.
 3. Paste in the entry template and fill it out. Keep entries in the file grouped sensibly (alphabetical by title is fine).
 4. Scroll down, choose **"Create a new branch for this commit and start a pull request,"** and click **Propose changes**.
@@ -71,7 +99,7 @@ If you would rather edit files on your own machine, or you are contributing seve
 
 1. Create your own fork of the `PSU-ICDS/AI-Upskilling-Resources` repository ([how to fork a repo](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)).
 2. Clone your fork locally and create a branch for your changes.
-3. Add or edit entries in the relevant `resources/<category>/README.md` file, following the [entry format](#the-entry-format) above. Since this is plain Markdown, you can preview it in any Markdown viewer or editor; no local build is needed.
+3. Add or edit entries in the relevant `<hub>/resources/<category>/README.md` file, following the [entry format](#the-entry-format) above. Since this is plain Markdown, you can preview it in any Markdown viewer or editor; no local build is needed.
 4. Commit and push your branch to your fork.
 5. Open a pull request from your branch to the `main` branch of this repository ([how to create a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)). A maintainer will review and merge it.
 
@@ -91,7 +119,7 @@ A maintainer will turn your issue into a proper entry.
 
 If GitHub is not for you, just send the details by email:
 
-> **Email:** `icds@psu.edu` with the subject line **"AI Upskilling Learning Repository: Suggestion"**
+> **Email:** `icds@psu.edu` with the subject line **"ICDS Upskilling Learning Repository: Suggestion"**
 
 Include the title, the link, your recommendation, and a sentence about why. If you developed a file yourself (a slide deck, a handout, a notebook) and want it hosted here, attach it and let us know how you would like to be credited.
 
@@ -99,7 +127,7 @@ Include the title, the link, your recommendation, and a sentence about why. If y
 
 ## Sharing a whole repository
 
-If you have an entire GitHub repository of materials, we can link it or incorporate it. See [resources/community-repos/README.md](resources/community-repos/README.md) for how we handle these, including the option to add it as a git submodule. Mention this in your pull request, issue, or email and a maintainer will help.
+If you have an entire GitHub repository of materials, we can link it or incorporate it. See the AI Hub's [community repositories page](ai/resources/community-repos/README.html) for how we handle these, including the option to add it as a git submodule. Mention this in your pull request, issue, or email and a maintainer will help.
 
 ## Licensing your contribution
 
@@ -114,4 +142,4 @@ By contributing, you agree that your original contributions are licensed under [
 
 ## Questions
 
-Email the ICDS Upskilling list at `icds@psu.edu` with the subject line "AI Upskilling Learning Repository: Suggestion"
+Email the ICDS Upskilling list at `icds@psu.edu` with the subject line "ICDS Upskilling Learning Repository: Suggestion"

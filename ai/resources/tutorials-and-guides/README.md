@@ -48,4 +48,4 @@ One-line description.
 -->
 
 --- 
-To add an entry, copy the block in [templates/resource-entry-template.md](../../templates/resource-entry-template.md) and paste it below. See [CONTRIBUTING.md](../../CONTRIBUTING.html).
+To add an entry, copy the block in [templates/resource-entry-template.md](../../../templates/resource-entry-template.md) and paste it below. See [CONTRIBUTING.md](../../../CONTRIBUTING.html).

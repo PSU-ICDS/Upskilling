@@ -1,5 +1,5 @@
-title: AI Upskilling Resources
-description: Community-curated learning resources for Penn State faculty getting started with AI.
+title: ICDS Upskilling Resources
+description: Community-curated learning resources for the Penn State community, across the five ICDS research hubs.
 
 # Minima ships a default.html layout, so pages with `layout: default`
 # in their front matter render inside it instead of erroring on a
@@ -8,6 +8,28 @@ description: Community-curated learning resources for Penn State faculty getting
 theme: minima
 
 markdown: kramdown
+
+# The site nav. _includes/header.html loops over this list, so adding a
+# hub here is all it takes to put it in the nav bar. Order is the order
+# shown.
+#
+# URLs must end in /README.html, not a bare folder path. On this site
+# jekyll-readme-index only turns the *root* README.md into the site's
+# index page; a README.md inside a folder is published at
+# <folder>/README.html, and a bare <folder>/ URL returns 404. The
+# `relative_url` filter in header.html prepends the baseurl that GitHub
+# Pages sets for a project site, so these stay root-relative here.
+hubs:
+  - name: Artificial Intelligence
+    url: /ai/README.html
+  - name: Computational Sciences
+    url: /computational/README.html
+  - name: Data Sciences
+    url: /data/README.html
+  - name: Digital Twins
+    url: /digital-twins/README.html
+  - name: Quantum Sciences
+    url: /quantum/README.html
 
 # Note: GitHub Pages bundles the jekyll-optional-front-matter plugin, so
 # front matter is NOT required for a markdown file to become a page.

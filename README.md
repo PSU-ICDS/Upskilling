@@ -2,36 +2,33 @@
 
 Carrie is amazing
 
-This repository collects learning materials to help Penn State researchers build skills in artificial intelligence (AI), whether they are just getting started or deepening existing expertise. We hope entries will come from [Institute for Computational and Data Sciences (ICDS)](https://icds.psu.edu/) Upskilling Fellows and the wider ICDS community. 
-We anticipate most will be links to freely available resources that members have tried and found useful.
-Members of the ICDS community are also welcome to submit materials that they created themselves. 
+This repository collects learning materials that help Penn State researchers build computational and data science skills, whether they are just getting started or deepening existing expertise. It is organized around the five research hubs of the [Institute for Computational and Data Sciences (ICDS)](https://icds.psu.edu/research/hubs/).
 
-This repository aims help researchers wondering *where do I start with AI*, *which learning resources have others found particularly useful*, or *which tools are my colleagues actually using*. 
-Each entry should include the names a real person who tried the resource and weighs in on how useful they found it.  
-Contributors are encouraged to offer their opinions.  All opinions expressed are those of the contributor and not necessarily those of ICDS or Penn State. 
+Entries come from ICDS Upskilling Fellows and the wider ICDS community. Most are links to freely available resources that members have tried and found useful. Members are also welcome to submit materials they created themselves.
 
-## Browse by category
+Each entry names a real person who tried the resource and says how useful they found it. Contributors are encouraged to offer their opinions. All opinions expressed are those of the contributor and not necessarily those of ICDS or Penn State.
 
-Resources are grouped by type so you can find the kind of material that fits how you like to learn.
+## The five hubs
 
-| Category | What you'll find | Go to |
+Pick the hub closest to your work. Resources inside each hub are grouped by type, such as courses, tutorials, tools, and books.
+
+| Hub | What you'll find | Go to |
 |---|---|---|
-| Courses | Structured, multi-module courses and certificate programs | [resources/courses](resources/courses/README.md) |
-| Tutorials and guides | Shorter how-to walkthroughs, cheat sheets, and written guides | [resources/tutorials-and-guides](resources/tutorials-and-guides/README.md) |
-| AI models | Notes on specific models (e.g., Claude, GPT, Gemini, open-weight models) and when to use them | [resources/ai-models](resources/ai-models/README.md) |
-| AI tools and harnesses | Assistants, agents, IDEs, notebooks, and platforms for getting work done | [resources/ai-tools-and-harnesses](resources/ai-tools-and-harnesses/README.md) |
-| Books and articles | Longer reading, papers, and reports | [resources/books-and-articles](resources/books-and-articles/README.md) |
-| Videos and talks | Recorded talks, lectures, and video series | [resources/videos-and-talks](resources/videos-and-talks/README.md) |
-| Community repositories | Full GitHub repositories shared by Penn State colleagues | [resources/community-repos](resources/community-repos/README.md) |
+| Artificial Intelligence | Models, assistants, coding agents, prompting, and AI literacy | [ai](ai/README.md) |
+| Computational Sciences | Advanced computing, simulation, modeling, and high performance computing practice | [computational](computational/README.md) |
+| Data Sciences | Statistics, machine learning, data management, and visualization | [data](data/README.md) |
+| Digital Twins | Virtual models of physical systems, sensor integration, and real-time simulation | [digital-twins](digital-twins/README.md) |
+| Quantum Sciences | Quantum information science: computing, sensing, communication, and simulation | [quantum](quantum/README.md) |
 
+The Artificial Intelligence (AI) Hub has the most entries today, because this collection started as the AI Upskilling reading list. The other four hubs are open and waiting for their first contributions. Adding the first entry to a hub is genuinely useful, not presumptuous.
 
-Not sure which category fits? Put it in the closest one. A maintainer can move it later.
+Not sure which hub fits? Pick the closest one. A maintainer can move it later.
 
-## Using this Learning Repository
+## Using this learning repository
 
 ### How entries are tagged
 
-Each entry carries a few short, plain-text tags so you can judge fit at a glance. Tags are written as words, never as color alone, so they work with screen readers and in high-contrast settings.
+Every entry, in every hub, carries a few short, plain-text tags so you can judge fit at a glance. Tags are written as words, never as color alone, so they work with screen readers and in high-contrast settings.
 
 **Level** (how much prior background it assumes): `Beginner`, `Intermediate`, `Advanced`, `Expert`.
 
@@ -41,31 +38,33 @@ Each entry carries a few short, plain-text tags so you can judge fit at a glance
 
 **Recommendation** (the reviewer's verdict): `Highly Recommend`, `Recommend`, `Neutral`, `Do Not Recommend`.
 
+**Date** (when the recommendation was made): `YYYY`, or `MM/YYYY` for more precision.
+
 See [templates/resource-entry-template.md](templates/resource-entry-template.md) for the exact format, and [ACCESSIBILITY.md](ACCESSIBILITY.html) for why we tag this way.
+
+### How the repository is organized
+
+Each hub is a top-level folder with the same shape, so once you learn one you know them all:
+
+- `<hub>/README.md` — the hub's home page.
+- `<hub>/resources/README.md` — the hub's category index.
+- `<hub>/resources/<category>/README.md` — the pages where entries actually live.
+
+Shared across all hubs: the [entry templates](templates/README.md), longer [detail pages](details/README.md), and the contributing, accessibility, and community guidelines below.
 
 ### Add a resource
 
-You do not need to be an advanced AI user to use or contribute to this repository.  
-Researchers from all disciplines are welcome to contribute.  
-And we welcome perspectives from people just getting started on their AI journey, as well as those who bring extensive experience.
-There is a path for adding resources, regardless of your comfort level with GitHub. Full instructions are in [CONTRIBUTING.md](CONTRIBUTING.html). In short:
+You do not need to be an advanced user to use or contribute to this repository.
+Researchers from all disciplines are welcome to contribute.
+We welcome perspectives from people just getting started, as well as those who bring extensive experience.
+
+There is a path for adding resources regardless of your comfort level with GitHub. Full instructions are in [CONTRIBUTING.md](CONTRIBUTING.html). In short:
 
 - **Comfortable with GitHub?** Open a pull request. Edit the relevant category page right in your browser, paste in the entry template, and submit.
-- **Prefer a web form?** Open a GitHub Issue using the "Suggest a resource" template. 
-- **Rather not touch GitHub at all?** Email the details to `icds@psu.edu` with the subject line "AI Upskilling Learning Repository: Suggestion" (see [CONTRIBUTING.md](CONTRIBUTING.html) for what to include).
+- **Prefer a web form?** Open a GitHub Issue using the "Suggest a resource" template.
+- **Rather not touch GitHub at all?** Email the details to `icds@psu.edu` with the subject line "ICDS Upskilling Learning Repository: Suggestion" (see [CONTRIBUTING.md](CONTRIBUTING.html) for what to include).
 
 You do not need to write anything long. A title, a link, a couple of tags, and one sentence about how useful you found it is plenty.
-
-
-## Getting started
-
-If you are new to AI and want a short list of starting points, then consider:
-
-- **[AI Essentials: Faculty Resources (Penn State)](https://ai.psu.edu/ai-literacy/ai-essentials/ai-essentials-faculty-resources)** — Penn State's foundational AI literacy materials for faculty, including a quick-start guide and course-integration resources. Level: Beginner. Best for: Research, Productivity, Teaching context.
-- **[AI at Penn State: Resource Library](https://ai.psu.edu/resources/resource-library)** — The university's central collection of AI guidance, tools, and training. Level: Beginner to Intermediate. Best for: Research, Productivity.
-- **[Anthropic: Learn](https://www.anthropic.com/learn)** — Vendor-provided courses and guides on using large language models effectively, including prompting and building with AI. Level: Beginner to Intermediate. Best for: Coding, Productivity, Research.
-
-Then browse the full collection by category below.
 
 ## License
 
@@ -77,8 +76,8 @@ We aim to meet [WCAG 2.2 Level AA](ACCESSIBILITY.html). If you find something th
 
 ## Maintainers
 
-This repository is a community effort.  
-Maintainers review and merge pull requests, and transcribe form/email submissions. 
-Contributions come from individual researchers, primarily from the ICDS community.  
-Claude created the structure and templates.  
-Send questions to `icds@psu.edu` with the subject line "AI Upskilling Learning Repository: Question"
+This repository is a community effort.
+Maintainers review and merge pull requests, and transcribe form and email submissions.
+Contributions come from individual researchers, primarily from the ICDS community.
+Claude created the structure and templates.
+Send questions to `icds@psu.edu` with the subject line "ICDS Upskilling Learning Repository: Question"

@@ -1,14 +1,28 @@
 name: Suggest a resource
-description: Recommend an AI learning resource. No file editing needed; a maintainer will add it for you.
+description: Recommend a learning resource for any ICDS hub. No file editing needed; a maintainer will add it for you.
 title: "[Resource] "
 labels: ["resource suggestion"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for helping colleagues find good AI learning materials. Fill in what you can.
+        Thanks for helping colleagues find good learning materials. Fill in what you can.
         A maintainer from ICDS will turn this into a proper entry.
         Prefer not to use GitHub at all? See CONTRIBUTING.md for other options.
+  - type: dropdown
+    id: hub
+    attributes:
+      label: Hub
+      description: Which ICDS research hub does this resource belong to? Not sure? Pick the closest; a maintainer can move it.
+      options:
+        - Artificial Intelligence
+        - Computational Sciences
+        - Data Sciences
+        - Digital Twins
+        - Quantum Sciences
+        - Not sure
+    validations:
+      required: true
   - type: input
     id: title
     attributes:
@@ -29,12 +43,13 @@ body:
     id: category
     attributes:
       label: Category
-      description: Which group does it best fit? Not sure? Pick the closest; a maintainer can move it.
+      description: Which group does it best fit within that hub? Not sure? Pick the closest; a maintainer can move it.
       options:
         - Courses
         - Tutorials and guides
-        - AI models
-        - AI tools and harnesses
+        - Tools and software
+        - AI models (Artificial Intelligence hub only)
+        - AI tools and harnesses (Artificial Intelligence hub only)
         - Books and articles
         - Videos and talks
         - Community repositories

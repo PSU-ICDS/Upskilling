@@ -32,7 +32,7 @@ Vendor courses and guides on using large language models well, including prompti
 
 - 07/2026 — **Eric Ford** — Recommend. A clear, applied introduction to getting useful work out of a modern chat assistant. Keep in mind it focuses on one vendor's tools, so pair it with a broader overview.
 
-_More info: [Getting started with Claude (detail page)](../../details/example-detail-page.md)_
+_More info: [Getting started with Claude (detail page)](../../../details/example-detail-page.md)_
 
 ---
 
@@ -67,4 +67,4 @@ One-line description of what the course covers.
 --- 
 
 
-To add a course, copy the block in [templates/resource-entry-template.md](../../templates/resource-entry-template.md) and paste it below, keeping the list alphabetical. See [CONTRIBUTING.md](../../CONTRIBUTING.html) for step-by-step help.
+To add a course, copy the block in [templates/resource-entry-template.md](../../../templates/resource-entry-template.md) and paste it below, keeping the list alphabetical. See [CONTRIBUTING.md](../../../CONTRIBUTING.html) for step-by-step help.

@@ -22,11 +22,11 @@ One line on what the repository contains and who maintains it.
 _Incorporated as: link only  (or:  git submodule at resources/community-repos/name)_
 -->
 
-_No repositories yet. Be the first to add one, see [CONTRIBUTING.md](../../CONTRIBUTING.html)._
+_No repositories yet. Be the first to add one, see [CONTRIBUTING.md](../../../CONTRIBUTING.html)._
 
 --- 
 
-To suggest a repository, open a pull request, issue, or email per [CONTRIBUTING.md](../../CONTRIBUTING.html), and mention whether you would like it linked or incorporated as a submodule.
+To suggest a repository, open a pull request, issue, or email per [CONTRIBUTING.md](../../../CONTRIBUTING.html), and mention whether you would like it linked or incorporated as a submodule.
 
 There are two ways we bring in a full repository. A maintainer will pick the right one with you.
 
