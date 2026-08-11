@@ -1,4 +1,6 @@
-# AI Upskilling Resources
+# ICDS Upskilling Resources
+
+Carrie is amazing
 
 This repository collects learning materials to help Penn State researchers build skills in artificial intelligence (AI), whether they are just getting started or deepening existing expertise. We hope entries will come from [Institute for Computational and Data Sciences (ICDS)](https://icds.psu.edu/) Upskilling Fellows and the wider ICDS community. 
 We anticipate most will be links to freely available resources that members have tried and found useful.
