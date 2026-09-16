@@ -19,7 +19,7 @@ The **LLM Lab** provides a secure, private workspace to interact with small to m
 3. Fill out the resource request form:
    * **Wall Time**: How long you need the session.
    * **CPU Cores & Memory**: Increase these if you plan to upload and process large documents (PDFs, codebases).
-   * **GPUs**: Request at least 1 GPU for fast model inference.
+   * **GPUs**: Request at least 1 GPU by checking the 'Enable advanced Slurm options' and using the --gres=gpu:1 flag.
 4. Click **Launch**.
 5. Visit [Roar Documentation](https://docs.icds.psu.edu/) for more information on available resources.
 
