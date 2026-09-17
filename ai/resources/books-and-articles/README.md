@@ -20,7 +20,17 @@ One line on what it covers.
 - MM/YYYY or YYYY — **Your Name** — Recommend. Why it was worth the time, and roughly how long it takes.
 -->
 
-_No entries yet. Be the first to add one, see [CONTRIBUTING.md](../../../CONTRIBUTING.html)._
+### [Mathematics in the age of AI](https://arxiv.org/abs/2608.16753)
+
+**Level:** Intermediate · **Modality:** Text · **Purpose:** Research
+
+**Reviews:**
+
+- 09/2026 — **Eric Ford** — Recommend. Helpful for getting started thinking about implications of AI.  Written about mathematics, but can be easily generalized to other fields.
+
+
+_To add more, see [CONTRIBUTING.md](../../../CONTRIBUTING.html)._
+---
 
 To add an entry, copy the block in [templates/resource-entry-template.md](../../../templates/resource-entry-template.md). See [CONTRIBUTING.md](../../../CONTRIBUTING.html).
 

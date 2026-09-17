@@ -67,9 +67,9 @@ This is the fastest path and needs no maintainer transcription. It works entirel
 
 #### Repository structure
 
-This repository is plain Markdown, browsable and editable right on GitHub, no build step or local tooling required.
+[This repository](https://github.com/PSU-ICDS/Upskilling) is plain Markdown, browsable and editable right on GitHub.  No build step or local tooling is required.
 
-Each hub is a top-level folder with the same shape, so once you learn one you know them all:
+Each hub is a top-level folder with the same shape:
 
 ```
 <hub>/README.md                          the hub's home page
@@ -77,15 +77,13 @@ Each hub is a top-level folder with the same shape, so once you learn one you kn
 <hub>/resources/<category>/README.md     where entries actually live
 ```
 
-For example, a course for the AI Hub goes in `ai/resources/courses/README.html`. Detail pages are shared across hubs and live under `details/`; the entry template lives at `templates/resource-entry-template.md`.
-
-If your hub does not have a page for your category yet, say so in your pull request or issue and a maintainer will create it. You do not have to set up folders yourself.
+For example, a course for the AI Hub goes in [`ai/resources/courses/README.html`](https://github.com/PSU-ICDS/Upskilling/blob/main/ai/resources/courses/README.md). Detail pages are shared across hubs and live under [`details/`](https://github.com/PSU-ICDS/Upskilling/tree/main/details); the entry template lives at [`templates/resource-entry-template.md`](https://github.com/PSU-ICDS/Upskilling/blob/main/templates/resource-entry-template.md).
 
 There is no staging branch: pull requests are opened directly against `main`, and GitHub renders the updated Markdown as soon as a maintainer merges.
 
 #### Quick edit in your browser
 
-1. Navigate to the category page you want to edit, for example [ai/resources/courses/README.md](ai/resources/courses/README.html).
+1. Navigate to the category page you want to edit, for example [ai/resources/ai-models/README.md](https://github.com/PSU-ICDS/Upskilling/tree/main/ai/resources/ai-models).
 2. Click the **pencil (Edit)** icon in the top-right of the file view. If you do not have write access, GitHub automatically creates a fork for you behind the scenes.
 3. Paste in the entry template and fill it out. Keep entries in the file grouped sensibly (alphabetical by title is fine).
 4. Scroll down, choose **"Create a new branch for this commit and start a pull request,"** and click **Propose changes**.
@@ -97,7 +95,7 @@ A pull request template will prompt you for the same information, so you cannot 
 
 If you would rather edit files on your own machine, or you are contributing several entries at once:
 
-1. Create your own fork of the `PSU-ICDS/AI-Upskilling-Resources` repository ([how to fork a repo](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)).
+1. Create your own fork of the [`PSU-ICDS/AI-Upskilling-Resources` repository](https://github.com/PSU-ICDS/Upskilling) ([how to fork a repo](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo)).
 2. Clone your fork locally and create a branch for your changes.
 3. Add or edit entries in the relevant `<hub>/resources/<category>/README.md` file, following the [entry format](#the-entry-format) above. Since this is plain Markdown, you can preview it in any Markdown viewer or editor; no local build is needed.
 4. Commit and push your branch to your fork.
@@ -109,8 +107,8 @@ New to Git and want to learn more? We recommend the ["Version Control with Git" 
 
 If you have a GitHub account but do not want to edit files:
 
-1. Go to the **Issues** tab of this repository.
-2. Click **New issue** and choose **"Suggest a resource."**
+1. Go to the [**Issues** tab](https://github.com/PSU-ICDS/Upskilling/issues) of this repository.
+2. Click [**New issue**](https://github.com/PSU-ICDS/Upskilling/issues/new/choose) and choose **"Suggest a resource."**
 3. Fill in the fields (title, link, tags, your recommendation, and a note). Submit.
 
 A maintainer will turn your issue into a proper entry.
