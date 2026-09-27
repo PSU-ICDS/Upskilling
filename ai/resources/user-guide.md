@@ -24,10 +24,11 @@ The **LLM Lab** provides a secure, private workspace to interact with small to m
    * **Enable advanced Slurm options**:  You _must check this box_ in order to specify that you'll need a GPU.
    * must
    * **GPUs**: Add one of the following strings to request a GPU:
-      * Any GPU `--gres=gpu:a100:1`
-      * Any GPU `--gres=gpu:p100:1`
-      * Any GPU `--gres=gpu:v100:1`
-      * Any GPU `--gres=gpu:a40:1`
+      * A100 GPU (40GB or 80 VRAM (TBC), max 1,555GB/s): `--gres=gpu:a100:1`
+      * A40 GPU (48GB VRAM, max 768 GB/s):   `--gres=gpu:a40:1`
+      * V100 GPU (16 or 32GB VRAM (TBC), max 900GB/s): `--gres=gpu:v100:1`
+      * P100 GPU (16GB RAM, max 732 GB/s, optimized for double precission math): `--gres=gpu:p100:1`
+      * Any NVIDIA GPU `--gres=gpu:1`
 4. Click **Launch**.
 5. Once your job starts, the status will change to **Running**.  Wait until a blue button **Click to Connect to LLM Lab** appears.  Click it.
 6. Use AnythingLLM.  
