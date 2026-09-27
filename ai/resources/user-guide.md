@@ -28,7 +28,7 @@ The **LLM Lab** provides a secure, private workspace to interact with small to m
       * A40 GPU (48GB VRAM, max 768 GB/s):   `--gres=gpu:a40:1`
       * V100 GPU (16 or 32GB VRAM (TBC), max 900GB/s): `--gres=gpu:v100:1`
       * P100 GPU (16GB RAM, max 732 GB/s, optimized for double precission math): `--gres=gpu:p100:1`
-      * Any NVIDIA GPU `--gres=gpu:1`
+      * Any NVIDIA GPU: `--gres=gpu:1`
 4. Click **Launch**.
 5. Once your job starts, the status will change to **Running**.  Wait until a blue button **Click to Connect to LLM Lab** appears.  Click it.
 6. Use AnythingLLM.  
@@ -89,20 +89,6 @@ You can give your AI the ability to search the live internet to answer questions
 5. Click **Save**.
 6. To use the search feature, return to your workspace chat (by cliking the loop back arrow with tooltip `Back to workspaces`), select a workspace click the **Agent mode** icon (usually a robot or wand icon near the chat input), and enter your prompt question. The AI will now browse the web before generating its response!
 
-### Chatting with a single document
-You can upload your own files (PDFs, Word docs, text, code) and ask the LLM questions about them.
-1. Open your Workspace.
-2. Click the plus icon or **Upload a Document** button below the textbox to enter a prompt.
-3. Upload your files.
-4. Enter and upload your prompt.
-
-### Chatting with a collection of Documents (RAG)
-You can upload your own files (PDFs, Word docs, text, code) and ask the LLM questions about them.
-1. Open your Workspace.
-2. Click the plus icon or **Upload a Document** button below to the chat bar.
-3. Upload your files.
-4. Click **Save and Embed**. The system will process your documents so the AI can read them.
-
 ---
 
 ## 🧠 Managing Models
@@ -119,13 +105,41 @@ To change the model you are chatting with:
 
 ---
 
+### Chatting with a single document
+You can upload your own files (PDFs, Word docs, text, code) and ask the LLM questions about them.
+1. Open your Workspace.
+2. Click the plus icon or **Upload a Document** button below the textbox to enter a prompt.
+3. Upload your files.
+4. Enter and upload your prompt.
+
+### Chatting with a collection of Documents (RAG)
+You can upload your own files (PDFs, Word docs, text, code) and ask the LLM questions about them.
+1. Open your Workspace.
+2. Click the plus icon or **Upload a Document** button below to the chat bar.
+3. Upload your files.
+4. Click **Save and Embed**. The system will process your documents so the AI can read them.
+
+
+---
+
 ## 💾 Data Privacy & Storage
 
-* Everything you type, upload, and configure is saved in your home directory at `~/.anythingllm_storage/`.
-* Your chats and documents persist across sessions. If you close your job today and launch a new one tomorrow, all your workspaces will still be there.
-* Because the models run locally on the cluster's GPUs, your prompts and data are **never** sent to OpenAI, Google, or any external third party.
+While Roar is approved for both [Level 1 and Level 2 data](https://security.psu.edu/awareness/icdt/), during the pilot we ask that users restrict their usage to Level 1 data.  ICDS staff will likely need to make configuration changes repeatedly, as they incorporate feedback from users.  While ICDS intends for the official AI-as-a-service rollout to support both levels of data, the pilot is intended for Level 1 data only.  See [Penn State policies on information clssification](https://security.psu.edu/awareness/icdt/).
 
-> **Security Note:** Authentication is handled automatically in the background. You do not need to enter a password. Your AnythingLLM session is securely locked to your account.  Other users cannot access your URL.
+### Keeping Data Local
+* Because AnythingLLM is preconfigured to call Ollama which runs local open-weight models locally on Roar, your prompts and data are not sent to OpenAI, Anthropic, Google, Meta, or other third party when using AnythingLLM (with the default settings).  
+* If you update your settings, you may cause data to leave the Roar cluster.  For example, if you enable web search, then AnythingLLM will submit search queries to an external search enginge.  Those queries may contain data from that thread's prompts, responses, and attached or connected documents.
+
+### Workspace Persistance
+* Your chats and workspaces persist across sessions. If you close your job today and launch a new one tomorrow, you can still access your workspaces stored on Roar Collab.  
+* Everything you type, upload, and configure is saved in your home directory at `~/.anythingllm_storage/`. 
+* Any users you grant access to  `~/.anythingllm_storage/` will be able to read your past sessions.
+ 
+### Authentication to AnythingLLM Sessions
+Authentication is handled automatically by the usual Penn State authentication process. 
+You do not need to enter a separate password for AnythingLLM. 
+Your AnythingLLM session is securely locked to your Penn State account.  
+Other users cannot access your session, even if you share the URL.
 
 ---
 
