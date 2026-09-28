@@ -61,7 +61,7 @@ Workspaces are isolated environments. For example, you could have one workspace 
 3. Click Save.
 4. If you get an error message, first try clicking the back button.  If that doesn't work, go back to the Open OnDemand portal's [My Interactive Sessions page](https://portal.hpc.psu.edu/pun/sys/dashboard/batch_connect/sessions) and click the blue "Click to Connect to LLM Lab" button again.
 5. Before you can start a chat session within that workspace, _make sure_ there is a LLM model name (e.g., `gemma4:e4b`) listed in the upper left.  If not, you need to [select a model](#selecting-an-llm-model) before beginning your chat session.
-6. [Start a simple chat session] by typing in the main box (with light "Send a message") and click the [screenshot of the up arrow submit button](!../assets/anythingllm-up-arrow.jpg) button (with tooltip "Submit prompt message to workspace").
+6. [Start a simple chat session] by typing in the main box (with light "Send a message") and click the [screenshot of the up arrow submit button](!../../assets/anythingllm-up-arrow.jpg) button (with tooltip "Submit prompt message to workspace").
 
 ### Selecting an LLM Model
 1. In the upper left, click on the model name (e.g., `gemma4:e4b`, `llama3.1:8b`, `gemma3:12b`, `muse-glimmer:30b`).  The FAQ provides [recommendations for which models to try with with GPUs](#which-models-run-well-on-which-gpus)
@@ -71,7 +71,7 @@ Workspaces are isolated environments. For example, you could have one workspace 
 
 ### Start a simple chat session
 1. Type your prompt the main textbox (overwriting the light *Send a message*). 
-2. Click the [⬆️/up arrow](!../assets/anythingllm-up-arrow.jpg) button (with tooltip "Submit prompt message to workspace").
+2. Click the [⬆️/up arrow](!../../assets/anythingllm-up-arrow.jpg) button (with tooltip "Submit prompt message to workspace").
 3. Wait for the AI's response.
 4. Decide how you want to proceed:
    - If you want to continue the thread, building on the previous prompts and responses in this thread, type your next prompt in text box at bottom and repeat.
@@ -122,7 +122,7 @@ To change the default model for your future workspaces:
 2. Navigate to **AI Providers**, **LLM**.
 3. Ensure **Ollama** is selected.
 4. Select a model from the dropdown list.  (E.g., `gemma4`, `llama3`, `muse-glimmer`).
-5. To adjust the maximum context window size, look under Advanced Settings, and enter a specific Model context window length in characters.  This value should not exceed the maximum context window allowed for that model.  (See [FAQ](#faq))
+5. To adjust the maximum context window size, look under Advanced Settings, and enter a specific Model context window length in tokens.  This value should not exceed the maximum context window allowed for that model.  (See [FAQ](#faq))
 5. Click **Save changes**.
 6. Click **Anthing LLM** in the upper left to return to the list of your workspaces.
 
@@ -145,7 +145,8 @@ Using **Connectors**, you have it index data such as a GitHub repository or YouT
 1. Click on a Workspace name in the left pane.
 2. Click the Upload icon next to the workspace name (tooltip name "Upload documents to this workspace for RAG indexing").
 3. Select files to be incorporated.  For example, "Click to upload or drag and drop" allows you to upload documents from your local computer to Roar.  After uploading a file, it will appear in the file manager box on the left.  Then click **Move to Workspace** and **Add to queue**.
-4. The system will process your documents so that future prompts within that workspace can the context of access your documents.
+4. The system will process your documents so that future prompts submitted within that workspace can decide which of your documents to bring into context before generating a response.
+5. 
 
 Note that embedding is currently performed on the CPU rather than the GPU.  If you want to embed a large number of documents, then you may want to create an LLM Lab session on a standard compute node with no GPUs to perform the embeddings.  Once they're complete, you can open a new LLM Lab session on a GPU node to prompt the LLM to use RAG on the documents you previously embedded.
 
