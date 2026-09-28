@@ -39,15 +39,13 @@ You can find more detailed documentation at:
 
 **Footnotes:**
 
-{:footnotes}
+1: Since most AnythingLLM + Ollama sessions rely primarily on the GPU, there is usually not significant benefit to requesting additional CPU cores or RAM for LLM Lab sessions.  It may be advantageous to specify more CPU cores and/or RAM if you plan to upload and process large documents (PDFs, codebases) that will make use of CPU for tools or mcp servers.  It is generally recommended to only run LLM models that fit within the GPU's VRAM.  In some cases, requesting substantially more CPU RAM may allow you to run larger models, but at a much slower speed.
 
-[^1]: Since most AnythingLLM + Ollama sessions rely primarily on the GPU, there is usually not significant benefit to requesting additional CPU cores or RAM for LLM Lab sessions.  It may be advantageous to specify more CPU cores and/or RAM if you plan to upload and process large documents (PDFs, codebases) that will make use of CPU for tools or mcp servers.  It is generally recommended to only run LLM models that fit within the GPU's VRAM.  In some cases, requesting substantially more CPU RAM may allow you to run larger models, but at a much slower speed.
+2: Recently, the A100 GPUs have often been in high demand, resulting in long wait times for jobs submitted to these nodes.  
 
-[^2]: Recently, the A100 GPUs have often been in high demand, resulting in long wait times for jobs submitted to these nodes.  
+3: The P100 GPUs are older, but optimized for double-precision arithmetic.  These are not well suited for typical LLM-workflows.
 
-[^3]: The P100 GPUs are older, but optimized for double-precision arithmetic.  These are not well suited for typical LLM-workflows.
-
-[^4]: You will be charged for whichever GPU your job is assigned.  Check the [current rates page](https://icds.psu.edu/services/roar/details-rates/) for details.
+4: You will be charged for whichever GPU your job is assigned.  Check the [current rates page](https://icds.psu.edu/services/roar/details-rates/) for details.
 
 ---
 
