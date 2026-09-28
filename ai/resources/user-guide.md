@@ -19,15 +19,15 @@ The **LLM Lab** provides a secure, private workspace to interact with small to m
    * **Account**:  ICDS credit account this job is to be charged to.
    * **Partition**: Standard.
    * **Number of hours**: How long you need the session.
-   * **Number of cores**:  Specify at least one CPU core.^1
-   * **Memory (GB)**: Specify at least 8 GB.^1  
+   * **Number of cores**:  Specify at least one CPU core.[^1]
+   * **Memory (GB)**: Specify at least 8 GB.[^1]  
    * **Enable advanced Slurm options**:  You _must check this box_ in order to specify that you'll need a GPU (unless you're session is for embedding only).
    * **GPUs**: Add one of the following strings to request a GPU:
-      * **A100 GPU**^2 (40GB VRAM, max 1,555GB/s: `--gres=gpu:a100:1`
+      * **A100 GPU**[^2] (40GB VRAM, max 1,555GB/s: `--gres=gpu:a100:1`
       * **A40 GPU** (48GB VRAM, max 768 GB/s):   `--gres=gpu:a40:1`
       * **V100 GPU** (32GB VRAM, max 900GB/s): `--gres=gpu:v100:1`
-      * **P100 GPU**^3 (16GB RAM, max 732 GB/s): `--gres=gpu:p100:1`
-      * Any NVIDIA GPU^4: `--gres=gpu:1`
+      * **P100 GPU**[^3] (16GB RAM, max 732 GB/s): `--gres=gpu:p100:1`
+      * Any NVIDIA GPU[^4]: `--gres=gpu:1`
 4. Click **Launch**.
 5. Once your job starts, the status will change to **Running**.  Wait until a blue button **Click to Connect to LLM Lab** appears.  Click it.
 6. Start exerimenting with AnythingLLM.  
@@ -39,13 +39,13 @@ You can find more detailed documentation at:
 
 **Footnotes:**
 
-^1:   Since most AnythingLLM + Ollama sessions rely primarily on the GPU, there is usually not significant benefit to requesting additional CPU cores or RAM for LLM Lab sessions.  It may be advantagous to specify more CPU cores and/or RAM if you plan to upload and process large documents (PDFs, codebases) that will make use of CPU for tools or mcp servers.  It is generally recommended to only run LLM models that fit within the GPU's VRAM.  In some cases, requesting substantially more CPU RAM may allow you to run larger models, but at a much slower speed.
+[^1]:   Since most AnythingLLM + Ollama sessions rely primarily on the GPU, there is usually not significant benefit to requesting additional CPU cores or RAM for LLM Lab sessions.  It may be advantagous to specify more CPU cores and/or RAM if you plan to upload and process large documents (PDFs, codebases) that will make use of CPU for tools or mcp servers.  It is generally recommended to only run LLM models that fit within the GPU's VRAM.  In some cases, requesting substantially more CPU RAM may allow you to run larger models, but at a much slower speed.
 
-^2:  Recently, the A100 GPUs have often been in high demand, resulting in long wait times for jobs submitted to these nodes.  
+[^2]:  Recently, the A100 GPUs have often been in high demand, resulting in long wait times for jobs submitted to these nodes.  
 
-^3:  The P100 GPUs are older, but optimized for double-precision arithmetic.  These are not well suited for typical LLM-workflows.
+[^3]:  The P100 GPUs are older, but optimized for double-precision arithmetic.  These are not well suited for typical LLM-workflows.
 
-^4:  You will be charged for whichever GPU your job is assigned.  Check the [current rates page](https://icds.psu.edu/services/roar/details-rates/) for details.
+[^4]:  You will be charged for whichever GPU your job is assigned.  Check the [current rates page](https://icds.psu.edu/services/roar/details-rates/) for details.
 
 ---
 
@@ -61,7 +61,7 @@ Workspaces are isolated environments. For example, you could have one workspace 
 3. Click Save.
 4. If you get an error message, first try clicking the back button.  If that doesn't work, go back to the Open OnDemand portal's [My Interactive Sessions page](https://portal.hpc.psu.edu/pun/sys/dashboard/batch_connect/sessions) and click the blue "Click to Connect to LLM Lab" button again.
 5. Before you can start a chat session within that workspace, _make sure_ there is a LLM model name (e.g., `gemma4:e4b`) listed in the upper left.  If not, you need to [select a model](#selecting-an-llm-model) before beginning your chat session.
-6. [Start a simple chat session] by typing in the main box (with light "Send a message") and click the [screenshot of the up arrow submit button](../../assets/anythingllm-up-arrow.jpg) button (with tooltip "Submit prompt message to workspace").
+6. [Start a simple chat session] by typing in the main box (with light "Send a message") and click the ![screenshot of the up arrow submit button](../../assets/anythingllm-up-arrow.jpg) button (with tooltip "Submit prompt message to workspace").
 
 ### Selecting an LLM Model
 1. In the upper left, click on the model name (e.g., `gemma4:e4b`, `llama3.1:8b`, `gemma3:12b`, `muse-glimmer:30b`).  The FAQ provides [recommendations for which models to try with with GPUs](#which-models-run-well-on-which-gpus)
