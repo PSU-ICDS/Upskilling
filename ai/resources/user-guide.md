@@ -23,7 +23,7 @@ The **LLM Lab** provides a secure, private workspace to interact with small to m
    * **Memory (GB)**: Specify at least 8 GB.^1^  
    * **Enable advanced Slurm options**:  You _must check this box_ in order to specify that you'll need a GPU (unless you're session is for embedding only).
    * **GPUs**: Add one of the following strings to request a GPU:
-      * **A100 GPU**^2^ (40GB or 80 VRAM TBC, max 1,555GB/s: `--gres=gpu:a100:1`
+      * **A100 GPU**^2^ (40GB VRAM, max 1,555GB/s: `--gres=gpu:a100:1`
       * **A40 GPU** (48GB VRAM, max 768 GB/s):   `--gres=gpu:a40:1`
       * **V100 GPU** (32GB VRAM, max 900GB/s): `--gres=gpu:v100:1`
       * **P100 GPU**^3^ (16GB RAM, max 732 GB/s): `--gres=gpu:p100:1`
