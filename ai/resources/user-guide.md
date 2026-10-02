@@ -14,7 +14,7 @@ The **LLM Lab** provides a secure, private workspace to interact with small to m
 ## Starting an AnythingLLM Session
 
 1. Log in to the [**Open OnDemand** portal](https://portal.hpc.psu.edu/).
-2. Click the **![](../../assets/window-restore.png) My Interactive Sessions** button (may appear as just an icon) to navigate to the [My Interactive Sessions page](https://portal.hpc.psu.edu/pun/sys/dashboard/batch_connect/sessions), then select **LLM Lab** from the left sidebar.
+2. Click the **![](../../assets/window-restore.png){: width="16x" } My Interactive Sessions** button (may appear as just an icon) to navigate to the [My Interactive Sessions page](https://portal.hpc.psu.edu/pun/sys/dashboard/batch_connect/sessions), then select **LLM Lab** from the left sidebar.
 3. Fill out the resource request form:
    * **Account**:  ICDS credit account this job is to be charged to.
    * **Partition**: Standard.
@@ -176,7 +176,7 @@ Other users cannot access your session, even if you share the URL.
 
 ### Choosing models and GPU combinations
 
-#### Which models run well on which GPUs?
+#### **Which models run well on which GPUs?**
 
 | Model                                                                                 | A100 40GB | A40 48GB             | V100 32GB         | P100 16GB | CPUs |
 |:------------------------------------------------------------------------------------- | --------- | -------------------- | ----------------- | --------- | --------- |
@@ -193,11 +193,11 @@ Key Status Legend:
 
 Benchmarks (tokens per second) list above are based on a single initial test and will likely be improved before long.
 
-#### Where can I find current cost of GPU nodes?
+#### **Where can I find current cost of GPU nodes?**
 See [Roar rates](https://icds.psu.edu/services/roar/details-rates/) page for current rates.
 
 
-#### Which models are good for what?
+#### **Which models are good for what?**
 
 | Model | Maximum Context Window | Inputs | Notes |
 |:------| -----------------------| ------ | ----- |
@@ -212,17 +212,17 @@ See [Managing Models](#managing-models) for instructions.
 Using a larger context window can result in slower outputs.  
 
 
-#### Why aren't bigger models available now?
+#### **Why aren't bigger models available now?**
 
 ICDS aims to order a new GPU cluster optimized for AI workflows soon.  
 The new cluster will include more GPUs with more  VRAM and allow ICDS to serve larger local open-weight models to many more users.  
 In the mean time, ICDS aims to help users develop experience working with small to medium-size open-weight models and welcomes feedback to inform future purchasing decisions.
 
-#### Why aren't Qwen models available?
+#### **Why aren't Qwen models available?**
 
 ICDS is still seeking permission to make Qwen models available to the ICDS community.  
 
-#### I'd like a specific LLM model to be made available.
+#### **I'd like a specific LLM model to be made available.**
 
 Please let us know which models you would like and your intended use case.  
 If you have a specific quantization in mind, feel free to include that information.  
@@ -230,7 +230,7 @@ Please also let us know whether you need low latency or intend for this model to
 
 ### Purpose of ICDS AI-as-a-Service
 
-#### Why is ICDS serving small to medium-size open-weight models when Penn State already has AI Studio providing access to frontier-class models?
+#### **Why is ICDS serving small to medium-size open-weight models when Penn State already has AI Studio providing access to frontier-class models?**
 
 Open weight models have many advantages.  Using open-weight models gives users more control.  For example, users can: 
 - Select from specific models trained for specific purposes.
@@ -244,7 +244,7 @@ Additionally, local open-weight models have the potential to:
 
 Through this pilot, users can begin to explore potential benefits and ICDS can gain experience to provide more robust open-weight AI-as-a-service offerings in the future.
 
-#### Should I expect open-weight models to replace commercial AI models?
+#### **Should I expect open-weight models to replace commercial AI models?**
 
 No.  It seems likely that open-weight models will continue to trail the capabilities of the latest commercial, frontier models.  
 As the gap between open and frontier models narrows, open-weight models may become more attractive, and ICDS anticipates that many users will want to use a combination of open-weight and frontier models. 
@@ -252,19 +252,19 @@ As the gap between open and frontier models narrows, open-weight models may beco
 
 ### Troubleshooting
 
-#### My session died unexpectedly.
+#### **My session died unexpectedly.**
 This usually happens for two reasons:
 1. **Time Limit:** Your requested Wall Time ran out.
 2. **Out of Memory (OOM):** Processing very large documents requires significant RAM. Try launching a new LLM Lab session and requesting more CPU memory (GB) in the web form.  
 
-#### I get an "Unauthorized" error when I open the link.
+#### **I get an "Unauthorized" error when I open the link.**
 For security, you must connect to the LLM Lab by clicking the **Connect** button in the Open OnDemand dashboard. If you bookmark the URL and try to visit it later, or share it with a colleague, the security shield will block access.  
 
-#### The response to my first prompt is slow to appear.
+#### **The response to my first prompt is slow to appear.**
 Loading the LLM model from disk into VRAM can take a few minutes.  If you submit multiple prompts to the same LLM model (without a gap of more than 5 minutes), the model will stay in VRAM and responses should start to appear more quickly.
 
 
-#### How do I completely reset my LLM Lab?
+#### **How do I completely reset my LLM Lab?**
 If you want to wipe all your chats, workspaces, and settings to start fresh:
 1. Stop your current LLM Lab session.
 2. Open a cluster terminal.
@@ -274,8 +274,8 @@ If you want to wipe all your chats, workspaces, and settings to start fresh:
 
 ### Feedback
 
-#### How can I provide feedback?
+#### **How can I provide feedback?**
 Send email to [icds@icds.psu.edu](mailto:icds@icds.psu.edu) or complete [this webform](#feedback) **TODO ADD LINK**.
 
-#### Why should I provide feedback?
+#### **Why should I provide feedback?**
 The primary purpose of the pilot is to help ICDS better understand which use cases are likely to be common.  We look forward to hearing which models and features are most useful to the ICDS Community and which new models users would like to see added.
