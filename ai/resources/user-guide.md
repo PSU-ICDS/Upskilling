@@ -14,7 +14,7 @@ The **LLM Lab** provides a secure, private workspace to interact with small to m
 ## Starting a AnythingLLM Session
 
 1. Log in to the [**Open OnDemand** portal](https://portal.hpc.psu.edu/).
-2. Navigate to **Interactive Apps** > **LLM Lab**.
+2. Navigate to **My Interactive Sessions**, then select **LLM Lab** from the left sidebar.
 3. Fill out the resource request form:
    * **Account**:  ICDS credit account this job is to be charged to.
    * **Partition**: Standard.
