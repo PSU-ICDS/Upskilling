@@ -33,7 +33,7 @@ The **LLM Lab** provides a secure, private workspace to interact with small to m
 6. Start exerimenting with AnythingLLM.  
 
 You can find more detailed documentation at:
-  * **[Getting Started](#getting-Started-using-anythingllm) section** below.
+  * **[Getting Started](#getting-started-using-anythingllm) section** below.
   * **[AnythingLLM documentation](https://docs.anythingllm.com/)** for info about more advanced features in Anything LLM.
   * **[Roar Documentation](https://docs.icds.psu.edu/)** for more information on using Roar.
 
