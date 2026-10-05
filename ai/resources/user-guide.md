@@ -69,7 +69,7 @@ Workspaces are isolated environments. For example, you could have one workspace 
 
 ### Start a simple chat session
 1. Type your prompt the main textbox (overwriting the light *Send a message*). 
-2. Click the ![Up arrow icon](../../assets/anythingllm-up-arrow.jpg) button (with tooltip "Submit prompt message to workspace").
+2. Click the ⬆️ button (with tooltip "Submit prompt message to workspace").
 3. Wait for the AI's response.
 4. Decide how you want to proceed:
    - If you want to continue the thread, building on the previous prompts and responses in this thread, type your next prompt in text box at bottom and repeat.
