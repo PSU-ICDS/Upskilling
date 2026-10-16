@@ -275,7 +275,7 @@ If you want to wipe all your chats, workspaces, and settings to start fresh:
 ### Feedback
 
 #### **How can I provide feedback?**
-Send email to [icds@icds.psu.edu](mailto:icds@icds.psu.edu) or complete [this webform](#feedback) **TODO ADD LINK**.
+Send email to [icds@icds.psu.edu](mailto:icds@icds.psu.edu) or complete [this webform]([#feedback](https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=RY30fNs9iUOpwcEVUm61Lr6d8HgUHz5EltDgI6iOfatURFJVS0xKREdWMlQ1MzJTTTFCTU44N1JBTy4u)).
 
 #### **Why should I provide feedback?**
 The primary purpose of the pilot is to help ICDS better understand which use cases are likely to be common.  We look forward to hearing which models and features are most useful to the ICDS Community and which new models users would like to see added.
