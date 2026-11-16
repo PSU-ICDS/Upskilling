@@ -62,7 +62,7 @@ Workspaces are isolated environments. For example, you could have one workspace 
 6. [Start a simple chat session](#start-a-simple-chat-session) by typing in the main box (with light "Send a message") and click the ⬆️ button (with tooltip "Submit prompt message to workspace").
 
 ### Selecting an LLM Model
-1. In the upper left, click on the model name (e.g., `gemma4:e4b`, `llama3.1:8b`, `gemma3:12b`, `muse-glimmer:30b`).  The FAQ provides [recommendations for which models to try with GPUs](#which-models-run-well-on-which-gpus)
+1. In the upper left, click on the model name (e.g., `gemma4:e4b`, `llama3.1:8b`, `muse-glimmer:30b`).  The FAQ provides [recommendations for which models to try with GPUs](#which-models-run-well-on-which-gpus)
 
 2. A dropdown will appear with LLM model providers on the left.  Select "Ollama".
 3. Under Available Models for Ollama, select one of the available models from the drop-down menu on the right.  Click "Use this model".
@@ -182,7 +182,6 @@ Other users cannot access your session, even if you share the URL.
 |:------------------------------------------------------------------------------------- | --------- | -------------------- | ----------------- | --------- | --------- |
 |[muse-glimmer:30b](https://huggingface.co/meta-models/Muse-Glimmer-30B) (Q4_K)         | ✅ Good   | ⚠️ Limited (~2.7T/s)     | ⚠️ Limited (~3.8T/s)  | 🔴 No           | 🔴 No | 
 |[llama3.1:8b Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) (Q4_K) | ✅ Good   | ✅ Good (~2.8T/s)     | ✅ Good (~4.9T/s)  | ⚠️ Limited           | 🔴 No | 
-|[gemma3:12b](https://huggingface.co/google/gemma-3-12b-it)                             | ✅ Good   | ✅ Good (~5.5T/s)     | ✅ Good (~3.7T/s)  | ⚠️ Limited           | 🔴 No | 
 |[gemma4:e4b](https://huggingface.co/google/gemma-4-E4B) (Q4_K)                         | ✅ Good   | ✅ Good (~4.6T/s)     | ✅ Good (~4.2T/s)  | ✅ Good (~3.1T/s) | 🔴 No | 
 |[RAG embedding only](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)    | -    | -                | -              | -            | ✅ Good |
 
@@ -203,7 +202,6 @@ See [Roar rates](https://icds.psu.edu/services/roar/details-rates/) page for cur
 |:------| -----------------------| ------ | ----- |
 |[muse-glimmer:30b](https://huggingface.co/meta-models/Muse-Glimmer-30B) (Q4_K)         | 131,072 | Text/images      | For reasoning | 
 |[llama3.1:8b Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) (Q4_K) | 131,072 | Text only        | Good for summarizing text | 
-|[gemma3:12b](https://huggingface.co/google/gemma-3-12b-it)                             | 128,000 | Text/image       | Old, deprecated model | 
 |[gemma4:e4b](https://huggingface.co/google/gemma-4-E4B) (Q4_K)                         | 128,000 | Text/image/audio | Small, fast model, can be deployed on edge devices | 
 |[RAG embedding only](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)    |   256   | Text only        | Currently CPU-only  |
 
