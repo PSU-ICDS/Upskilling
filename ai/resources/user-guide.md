@@ -58,11 +58,11 @@ Workspaces are isolated environments. For example, you could have one workspace 
 2. Enter a unique name for your workspace.
 3. Click Save.
 4. If you get an error message, first try clicking the back button.  If that doesn't work, go back to the Open OnDemand portal's [My Interactive Sessions page](https://portal.hpc.psu.edu/pun/sys/dashboard/batch_connect/sessions) and click the blue "Click to Connect to LLM Lab" button again.
-5. Before you can start a chat session within that workspace, _make sure_ there is a LLM model name (e.g., `gemma4:e4b`) listed in the upper left.  If not, you need to [select a model](#selecting-an-llm-model) before beginning your chat session.
+5. Before you can start a chat session within that workspace, _make sure_ there is a LLM model name (e.g., `gemma-4-E4B-it-qat-GGUF`) listed in the upper left.  If not, you need to [select a model](#selecting-an-llm-model) before beginning your chat session.
 6. [Start a simple chat session](#start-a-simple-chat-session) by typing in the main box (with light "Send a message") and click the ⬆️ button (with tooltip "Submit prompt message to workspace").
 
 ### Selecting an LLM Model
-1. In the upper left, click on the model name (e.g., `gemma4:e4b`, `llama3.1:8b`, `muse-glimmer:30b`).  The FAQ provides [recommendations for which models to try with GPUs](#which-models-run-well-on-which-gpus)
+1. In the upper left, click on the model name (e.g., `gemma-4-E4B-it-qat-GGUF`, `llama3.1:8b`, `muse-glimmer:30b`).  The FAQ provides [recommendations for which models to try with GPUs](#which-models-run-well-on-which-gpus)
 
 2. A dropdown will appear with LLM model providers on the left.  Select "Ollama".
 3. Under Available Models for Ollama, select one of the available models from the drop-down menu on the right.  Click "Use this model".
@@ -119,7 +119,7 @@ To change the default model for your future workspaces:
 1. Click the **Settings** icon (wrench) at the bottom of the left-hand pane.
 2. Navigate to **AI Providers**, **LLM**.
 3. Ensure **Ollama** is selected.
-4. Select a model from the dropdown list.  (E.g., `gemma4`, `llama3`, `muse-glimmer`).
+4. Select a model from the dropdown list.  (E.g., `gemma-4`, `llama3`, `muse-glimmer`).
 5. To adjust the maximum context window size, look under Advanced Settings, and enter a specific Model context window length in tokens.  This value should not exceed the maximum context window allowed for that model.  (See [FAQ](#faq))
 6. Click **Save changes**.
 7. Click **AnythingLLM** in the upper left to return to the list of your workspaces.
@@ -182,7 +182,10 @@ Other users cannot access your session, even if you share the URL.
 |:------------------------------------------------------------------------------------- | --------- | -------------------- | ----------------- | --------- | --------- |
 |[muse-glimmer:30b](https://huggingface.co/meta-models/Muse-Glimmer-30B) (Q4_K)         | ✅ Good   | ⚠️ Limited (~2.7T/s)     | ⚠️ Limited (~3.8T/s)  | 🔴 No           | 🔴 No | 
 |[llama3.1:8b Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) (Q4_K) | ✅ Good   | ✅ Good (~2.8T/s)     | ✅ Good (~4.9T/s)  | ⚠️ Limited           | 🔴 No | 
-|[gemma4:e4b](https://huggingface.co/google/gemma-4-E4B) (Q4_K)                         | ✅ Good   | ✅ Good (~4.6T/s)     | ✅ Good (~4.2T/s)  | ✅ Good (~3.1T/s) | 🔴 No | 
+|[gemma-4-31B-it-qat-GGUF](https://huggingface.co/unsloth/gemma-4-31B-it-qat-GGUF) (Q4_K_XL)|✅ Good|✅ Good|✅ Good|🔴 No|🔴 No|
+|[gemma-4-26B-A4B-it-qat-GGUF](https://huggingface.co/unsloth/gemma-4-26B-A4B-it-qat-GGUF) (Q4_K_XL)|✅ Good|✅ Good|✅ Good|🔴 No|🔴 No|
+|[gemma-4-12B-it-qat-GGUF](https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF) (Q4_K_XL)|✅ Good|✅ Good|✅ Good|✅ Good|🔴 No|
+|[gemma-4-E4B-it-qat-GGUF](https://huggingface.co/unsloth/gemma-4-E4B-it-qat-GGUF) (Q4_K_XL)|✅ Good|✅ Good|✅ Good|✅ Good|🔴 No|
 |[RAG embedding only](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)    | -    | -                | -              | -            | ✅ Good |
 
 Key Status Legend:
@@ -202,7 +205,10 @@ See [Roar rates](https://icds.psu.edu/services/roar/details-rates/) page for cur
 |:------| -----------------------| ------ | ----- |
 |[muse-glimmer:30b](https://huggingface.co/meta-models/Muse-Glimmer-30B) (Q4_K)         | 131,072 | Text/images      | For reasoning | 
 |[llama3.1:8b Instruct](https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct) (Q4_K) | 131,072 | Text only        | Good for summarizing text | 
-|[gemma4:e4b](https://huggingface.co/google/gemma-4-E4B) (Q4_K)                         | 128,000 | Text/image/audio | Small, fast model, can be deployed on edge devices | 
+|[gemma-4-31B-it-qat-GGUF](https://huggingface.co/unsloth/gemma-4-31B-it-qat-GGUF) (Q4_K_XL)|262,144|Text/image|Strongest performance at slower inference|
+|[gemma-4-26B-A4B-it-qat-GGUF](https://huggingface.co/unsloth/gemma-4-26B-A4B-it-qat-GGUF) (Q4_K_XL)|262,144|Text/image|Best speed / quality tradeoff for GPUs with tensor cores|
+|[gemma-4-12B-it-qat-GGUF](https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF) (Q4_K_XL)|262,144|Text/image/audio|Medium model for local multimodal use|
+|[gemma-4-E4B-it-qat-GGUF](https://huggingface.co/unsloth/gemma-4-E4B-it-qat-GGUF) (Q4_K_XL)|128,000|Text/image/audio|Small, fast model, can be deployed on edge devices|
 |[RAG embedding only](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2)    |   256   | Text only        | Currently CPU-only  |
 
 Using a context window larger than ~16K will require explicitly setting the maximum context window length.  
